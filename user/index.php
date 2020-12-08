@@ -40,7 +40,7 @@ else{
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
         <a class="navbar-brand " href="#">
-            <img src="../image/icon.png " alt="logo "> MoviesInfo
+            <img src="../image/icon.png " alt="logo "> Cinema
         </a>
 
         <!-- Links -->
@@ -49,10 +49,10 @@ else{
         <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active " href="# ">Home</a>
+                <a class="nav-link active " href="# ">Inicio</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link " href="browse.php">Browse Movies</a>
+                <a class="nav-link " href="browse.php">Buscador</a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="request.php">Request</a>

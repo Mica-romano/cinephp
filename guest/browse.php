@@ -69,8 +69,8 @@ if (isset($_SESSION['username'])) {
                             <h1 style="color: white">Cinema Movies: Informacion sobre mas de 10.000 peliculas</h1>
                             <p style="color: white">
                                 Bienvenidos a
-                                <span style="font-weight:bold; color: #6AC045">Cinema Movies</span> |En este sitio encontraras toda la informacion de tu pelicula favorita.
-                                <span style="font-weight:bold; color: #6AC045">Informacion  </span> |Cinema Movies  
+                                <span style="font-weight:bold; color: #6AC045">Cinema Movies</span>  |En este sitio encontraras toda la informacion de tu pelicula favorita. Cinema Movies es reconocido por su excelencia.Aqui obtendras 
+                                <span style="font-weight:bold; color: #6AC045">Informacion  </span>| de todas y cada una de las peliculas estrenadas y no estrenadas.Proporcionamos esta informacion con la ayuda de   
                                 <span style="font-weight:bold; color: #6AC045">MovieDB </span> |Films conocidos por sus recursos cinematograficos .
                                 <span style="font-weight:bold; color: #6AC045">Buscador </span> |Obtenga aspectos detallados de su film favorito.
                             </p>

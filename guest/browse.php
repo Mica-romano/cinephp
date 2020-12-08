@@ -17,7 +17,7 @@ if (isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Browse your Faourite Movies</title>
+    <title>Busca tu pelicula favorita</title>
     <!-- <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">-->
     <!-- <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css"> -->
 
@@ -37,7 +37,7 @@ if (isset($_SESSION['username'])) {
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="../index.php">
-            <img src="../image/icon.png" alt="logo"> MoviesInfo
+            <img src="../image/icon.png" alt="logo"> Cinema Movies 
         </a>
 
         <!-- Links -->
@@ -50,7 +50,7 @@ if (isset($_SESSION['username'])) {
                 <a class="nav-link" href="../index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#">Browse Movies</a>
+                <a class="nav-link active" href="#">Buscar Peliculas</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../index.php#popup1">Log In</a>
@@ -66,15 +66,13 @@ if (isset($_SESSION['username'])) {
                 <div>
                     <center>
                         <div class="content">
-                            <h1 style="color: white">MoviesInfo: Information about over 10k+ movies</h1>
+                            <h1 style="color: white">Cinema Movies: Informacion sobre mas de 10.000 peliculas</h1>
                             <p style="color: white">
-                                Welcome to
-                                <span style="font-weight:bold; color: #6AC045">MoviesInfo</span> | It is site where you can view information about your favourite movie.
-                                MoviesInfo are best known for the excellent
-                                <span style="font-weight:bold; color: #6AC045">Information</span> for each and every released and not released movies. We are providing
-                                this information by the help of
-                                <span style="font-weight:bold; color: #6AC045">MovieDB </span> which known for their movies resources.
-                                <span style="font-weight:bold; color: #6AC045">Browse</span> Movie and get detail aspect of your favourite movie.
+                                Bienvenidos a
+                                <span style="font-weight:bold; color: #6AC045">Cinema Movies</span> |En este sitio encontraras toda la informacion de tu pelicula favorita.
+                                <span style="font-weight:bold; color: #6AC045">Informacion  </span> |Cinema Movies  
+                                <span style="font-weight:bold; color: #6AC045">MovieDB </span> |Films conocidos por sus recursos cinematograficos .
+                                <span style="font-weight:bold; color: #6AC045">Buscador </span> |Obtenga aspectos detallados de su film favorito.
                             </p>
                         </div>
                     </center>
@@ -91,7 +89,7 @@ if (isset($_SESSION['username'])) {
     </div>
 
     <div class="footer">
-        <p>&copy; Copyright Developed by Genius Coders.</p>
+        <p>&copy; Copyright MDP Developers.</p>
     </div>
 
     <!-- jQuery library -->

@@ -58,7 +58,7 @@ else{
     <link rel="stylesheet" href="../css/index.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Archivos CSS -->
     <link rel=" stylesheet " href="../css/bootstrap.min.css ">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -67,32 +67,44 @@ else{
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Brand/logo -->
+        <!-- Logo cinema -->
         <a class="navbar-brand " href="#">
-            <img src="../image/icon.png " alt="logo "> MoviesInfo
+            <img src="../image/icon.png " alt="logo "> <strong>Cinema</strong>
         </a>
 
         <!-- Links -->
-        <ul class="navbar-nav mr-auto ">
-        </ul>
-        <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link" href="index.php ">Home</a>
+                <a class="nav-link active " href="index.php "> | Inicio</a>
+            <li class="nav-item ">
+                <!-- <li class="nav-item ">
+                <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>
+            </li>
+            </li> -->
+                <a class="nav-link" href=""> | Ingresar proyecciones</a>
+            </li>
             </li>
             <li class="nav-item ">
-                <a class="nav-link " href="users.php">Manage Users</a>
+                <a class="nav-link " href="users.php"> | Gestionar usuarios</a>
+            </li>
+            </li> 
+            <li class="nav-item ">
+                <a class="nav-link" href=""> | Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link active" href="#">Movies Request</a>
+                <a class="nav-link" href=""> | Entradas vendidas y remanentes</a>
             </li>
+            <li class="nav-item ">
+                <a class="nav-link" href=""> | Dinero recaudado</a>
+            </li>
+
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link" href="#" data-toggle="dropdown">
                     <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['username'] ?></a>
-                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
+                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Cerrar Sesion</a>
                 </div>
             </li>
         </ul>

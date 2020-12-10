@@ -26,9 +26,10 @@ include('userlist.php');
     <title>Document</title>
 
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/users.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Archivos CSS -->
     <link rel=" stylesheet " href="../css/bootstrap.min.css ">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,9 +40,9 @@ include('userlist.php');
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Brand/logo -->
+        <!-- Logo -->
         <a class="navbar-brand " href="#">
-            <img src="../image/icon.png " alt="logo "> MoviesInfo
+            <img src="../image/icon.png " alt="logo "> Cinema
         </a>
 
         <!-- Links -->
@@ -50,21 +51,36 @@ include('userlist.php');
         <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link" href="index.php ">Home</a>
+                <a class="nav-link active " href="index.php "> | Inicio</a>
+            <li class="nav-item ">
+                <!-- <li class="nav-item ">
+                <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>
+            </li>
+            </li> -->
+                <a class="nav-link" href=> | Ingresar proyecciones</a>
+            </li>
             </li>
             <li class="nav-item ">
-                <a class="nav-link active" href="#">Manage Users</a>
+                <a class="nav-link " href="users.php"> | Gestionar usuarios</a>
+            </li>
+            </li> 
+            <li class="nav-item ">
+                <a class="nav-link" href=""> | Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="moviesrequest.php">Movies Request</a>
+                <a class="nav-link" href=""> | Entradas vendidas y remanentes</a>
             </li>
+            <li class="nav-item ">
+                <a class="nav-link" href=""> | Dinero recaudado</a>
+            </li>
+
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link" href="#" data-toggle="dropdown">
                     <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['username'] ?></a>
-                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
+                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Cerrar Sesion</a>
                 </div>
             </li>
         </ul>
@@ -74,11 +90,11 @@ include('userlist.php');
         <form action="" method="post">
             <div class="row">
                 <div class="col-md-10 box1">
-                    <h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: #6AC045">Users List </span>(<?php echo $total ?>)</h3>
+                    <h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: red">Lista de usuarios </span>(<?php echo $total ?>)</h3>
                     <?php 
                     echo $list;
                     ?>
-                    <a href="#popup2" class="btn"> Add new Account</a>
+                    <a href="#popup2" class="btn"> Agregar nueva cuenta</a>
                 </div>
             </div>   
         </form>
@@ -86,21 +102,21 @@ include('userlist.php');
 
     <div id="popup2" class="popup-overlay">
         <div class="log-popup">
-            <h2>Add New Account</h2>
+            <h2>Agregar nueva cuenta</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
                 <form action="../controller/register.php" method="post">
                     <i class="fa fa-user icon"></i>
-                    <input type="text" placeholder="Name of User" name="fullname" class="log-input" required>
+                    <input type="text" placeholder="Nombre y Apellido" name="fullname" class="log-input" required>
                     <br>
                     <i class="fa fa-envelope icon"></i>
-                    <input type="email" placeholder="User Email" name="email" class="log-input" required>
+                    <input type="email" placeholder="Email" name="email" class="log-input" required>
                     <br>
                     <i class="fa fa-link icon"></i>
-                    <input type="text" placeholder="Username" name="username" class="log-input" required>
+                    <input type="text" placeholder="Nombre de Usuario" name="username" class="log-input" required>
                     <br>
                     <i class="fa fa-lock icon"></i>
-                    <input type="password" placeholder="Password" name="password" class="log-input" required>
+                    <input type="password" placeholder="Contraseña" name="password" class="log-input" required>
                     <br>
                     <input type="submit" value="Sign Up" name="signup-btn" class="btn-log">
                 </form>

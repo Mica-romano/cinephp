@@ -59,7 +59,7 @@ else{
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Administrar cines</a>
+                <a class="nav-link" href="admincinema.php"> | Administrar cines</a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href=""> | Entradas vendidas y remanentes</a>
@@ -103,7 +103,7 @@ else{
                         Gestionar Usuarios
                         </a>
                     </a>
-                     <a href="" class="btn-main ">
+                     <a href="admincinema.php" class="btn-main ">
                         Administrar cines
                     </a> <br> <br>
                     <a href="" class="btn-main ">

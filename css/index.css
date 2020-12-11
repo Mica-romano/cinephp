@@ -1,6 +1,6 @@
 body {
     
-    background: #111 !important;
+    background: rgb(0, 0, 0) !important;
     margin : 0;
     font-family: "Arimo",Arial,Helvetica,"Lucida Grande",sans-serif !important;
     letter-spacing: -.03em;
@@ -20,13 +20,13 @@ body {
 
 .title {
     font-weight: bold;
-    color: #fff;
+    color: rgb(245, 21, 21);
     letter-spacing: 1px;
     font-size: 50px;
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/cinee.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -42,7 +42,7 @@ header{
 
 .btn-main {
     padding: 10px 30px;
-    border: 1px solid #6AC045;
+    border: 1px solid #fd3325;
     background: transparent;
     color: #fff !important;
     font-size: 22px;
@@ -53,14 +53,14 @@ header{
 }
 
 .btn-main-primary {
-    background-color: #6AC045;
+    background-color: #fd2a2a;
     color: #fff !important;
     text-align: center;
     width: 20%;
 }
 
 .btn-main:hover {
-    background: #6AC045;
+    background:#fd2a2a;
     color: #fff;
 }
 
@@ -70,7 +70,7 @@ header{
     border-radius: 30px;
     padding: 7px 20px;
     width: 50%;
-    border: 2px solid #6AC045;
+    border: 2px solid #fd2a2a;
     outline: 0;
     display: inline;
     color: #fff;
@@ -150,7 +150,7 @@ a{
     font-size: 14px;
     display: inline;
     color: #fff;
-    background: #6AC045;;
+    background: #fd2a2a;;
     border: 0;
     outline: 0;
     border-radius: 10px;

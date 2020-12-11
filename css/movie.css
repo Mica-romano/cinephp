@@ -58,12 +58,12 @@ body {
     padding: 10px 15px;
     font-size: 20px;
     display: inline;
-    color: #fff;
-    background: #6AC045;;
+    color: rgb(241, 45, 11);
+    background: #ffee05;;
     border: 0;
     outline: 0;
     border-radius: 10px;
-}
+}/*boton ver    IMDB*/
 .btn-second {
     margin-top: 5px;
     margin-left: 10px;

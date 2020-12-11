@@ -34,3 +34,4 @@
     }
     $conn->close();
 ?>
+<!-- Crear nuevo usuario-->

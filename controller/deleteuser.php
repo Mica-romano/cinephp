@@ -13,3 +13,4 @@ $result = $conn -> query($del);
 header("Location: ../admin/users.php"); 
 $conn->close();
 ?>
+<!-- Controlador Borrar usuarios-->

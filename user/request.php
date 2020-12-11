@@ -34,9 +34,8 @@ else{
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
         <a class="navbar-brand " href="#">
-            <img src="../image/icon.png " alt="logo "> MoviesInfo
+        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
-
         <!-- Links -->
         <ul class="navbar-nav mr-auto ">
         </ul>

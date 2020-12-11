@@ -42,7 +42,7 @@ include('userlist.php');
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Logo -->
         <a class="navbar-brand " href="#">
-            <img src="../image/icon.png " alt="logo "> Cinema
+        <img src="../image/2.png " alt="logo "> Cinema
         </a>
 
         <!-- Links -->
@@ -146,7 +146,7 @@ include('userlist.php');
             <h2>Error</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-               <p style="color:black">Username or Email already exist :( Please try again</p> 
+               <p style="color:black">El usuario o email no existe :( Por favor, intenta nuevamente</p> 
             </div>
         </div>
     </div>

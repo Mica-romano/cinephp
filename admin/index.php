@@ -24,7 +24,7 @@ else{
     <link rel="stylesheet" href="../css/index.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Archivos CSS -->
     <link rel=" stylesheet " href="../css/bootstrap.min.css ">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,7 +33,7 @@ else{
 </head>
 
 <body> 
-    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top"> <!-- style="background-color: blue"-->
+     < <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  <!-- style="background-color: blue" bg-secondary-->
         <!-- Brand/logo -->
         <a class="navbar-brand " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
@@ -74,12 +74,11 @@ else{
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['username'] ?></a>
-                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
+                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Cerrar Sesion</a>
                 </div>
             </li>
         </ul>
     </nav>
-
     <header>
         <div class="container body ">
             <center>
@@ -117,7 +116,10 @@ else{
             </center>
         </div>
     </header>
+    </body>
 
+
+    
     <div class="footer">
         
         <p>&copy; Copyright MDP Developers</p>
@@ -131,6 +133,6 @@ else{
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
-</body>
+
 
 </html>

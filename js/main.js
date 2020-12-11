@@ -21,7 +21,7 @@ $(document).ready(() => {
 //     getMovies(search.value);
 // })
 function popularMovies() {
-    axios.get('https://api.themoviedb.org/3/movie/popular?api_key=5ec279387e9aa9488ef4d00b22acc451&language=en-US&page=1')
+    axios.get('https://api.themoviedb.org/3/movie/popular?api_key=5ec279387e9aa9488ef4d00b22acc451&language=es-AR&page=1')
         .then((response) => {
             console.log(response);
 
@@ -115,9 +115,9 @@ function movieSelected(id) {
 function getReviews() {
 
     let movieId = sessionStorage.getItem('id');
-    axios.get(`https://api.themoviedb.org/3/movie/${movieId}/reviews?api_key=5ec279387e9aa9488ef4d00b22acc451&language=en-US&page=1`)
+    axios.get(`https://api.themoviedb.org/3/movie/${movieId}/reviews?api_key=5ec279387e9aa9488ef4d00b22acc451&language=es-AR&page=1`)
 
-        .then((response) => {
+    .then((response) => {
             // https://api.themoviedb.org/3/movie/299536/reviews?api_key=5ec279387e9aa9488ef4d00b22acc451&language=en-US&page=1
             console.log(response);
             let reviews = response.data.results;
@@ -152,9 +152,9 @@ function getMovie() {
     let movieId = sessionStorage.getItem('id');
 
     //test id -> 299536
-    axios.get(`https://api.themoviedb.org/3/movie/${movieId}?api_key=5ec279387e9aa9488ef4d00b22acc451`)
+    axios.get(`https://api.themoviedb.org/3/movie/${movieId}?api_key=c8d76c464c6627dea962b5bab71d2761`)
         .then((response) => {
-            // https://api.themoviedb.org/3/movie/299536/reviews?api_key=5ec279387e9aa9488ef4d00b22acc451&language=en-US&page=1
+            // https://api.themoviedb.org/3/movie/299536/reviews?api_key=5ec279387e9aa9488ef4d00b22acc451&language=en-AR&page=1
             console.log(response);
             let movie = response.data;
 
@@ -236,7 +236,7 @@ function getMovie() {
 
 //// for top rated movies
 function getTopMovies() {
-    axios.get('https://api.themoviedb.org/3/movie/top_rated?api_key=5ec279387e9aa9488ef4d00b22acc451&language=en-US&page=1')
+    axios.get('https://api.themoviedb.org/3/movie/top_rated?api_key=c8d76c464c6627dea962b5bab71d2761&language=es-AR&page=1')
         .then((response) => {
             console.log(response);
 
@@ -428,8 +428,3 @@ function getTopMovies() {
             console.log(error);
         });
 }
-
-
-
-
-

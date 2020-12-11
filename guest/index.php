@@ -16,7 +16,7 @@ if (isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to MoviesInfo</title>
+    <title>Bienvenidos a Cinema Movies </title>
     <link rel="stylesheet" href="../css/index.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
@@ -32,8 +32,12 @@ if (isset($_SESSION['username'])) {
 <body>
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
+<<<<<<< HEAD
         <a class="navbar-brand " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
+=======
+        <a class="navbar-brand" href="../index.php">
+            <img src="../image/icon.png" alt="logo"> Cinema Movies 
         </a>
 
         <!-- Links -->
@@ -46,7 +50,7 @@ if (isset($_SESSION['username'])) {
                 <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="browse.php">Browse Movies</a>
+                <a class="nav-link" href="browse.php">Buscar Peliculas </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#popup1">Log In</a>
@@ -136,17 +140,16 @@ if (isset($_SESSION['username'])) {
         <div class="container body ">
             <center>
                 <div class="inner-body ">
-                    <h1 class="title ">Welcome to
-                        <span style="color: #6AC045 ">MoviesInfo</span>
+                    <h1 class="title ">Bienvenidos a 
+                        <span style="color: #6AC045 "> Cinema Movies</span>
                     </h1>
                     <p style="color: white" class="content">
-                        Welcome to
-                        <span style="font-weight:bold; color: #6AC045">MoviesInfo</span> | It is site where you can view information about your favourite movie. MoviesInfo
-                        are best known for the excellent
-                        <span style="font-weight:bold; color: #6AC045">Information</span> for each and every released and not released movies. We are providing this information
-                        by the help of
-                        <span style="font-weight:bold; color: #6AC045">MovieDB </span> which known for their movies resources.
-                        <span style="font-weight:bold; color: #6AC045">Browse</span> Movie and get detail aspect of your favourite movie.
+                        Bienvenidos a 
+                        <span style="font-weight:bold; color: #6AC045"></span> Cinema Movies en este sitio encontraras toda la informacion de tu pelicula favorita.Cinema Movies es reconocido por su excelencia.Aqui obtendras 
+                        <span style="font-weight:bold; color: #6AC045">Informacion</span> de todas y cada una de las peliculas estrenadas y no estrenadas.Proporcionamos esta informacion con la ayuda de    
+                        <span style="font-weight:bold; color: #6AC045">MovieDB </span> Films conocidos por sus recursos cinematograficos .
+                        <span style="font-weight:bold; color: #6AC045">Buscador</span> Obtenga aspectos detallados de su film favorito.
+                            </p>
                     </p>
                 </div>
                 <div class="container">
@@ -165,7 +168,7 @@ if (isset($_SESSION['username'])) {
     <div class="about-box ">
         <center>
             <div class="about ">
-                <h1>About this site</h1>
+                <h1>Acerca de este sitio</h1>
                 <p class="about-content ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nobis officiis, labore non molestias maxime,
                     corporis saepe voluptatibus culpa sequi minus vitae qui eos expedita quos placeat consectetur voluptas
                     ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quos, aut voluptatum
@@ -217,7 +220,7 @@ if (isset($_SESSION['username'])) {
     </div>
 
     <div class="footer">
-        <p>&copy; Copyright Developed by Genius Coders.</p>
+        <p>&copy; Copyright MDP Developers .</p>
     </div>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

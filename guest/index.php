@@ -32,8 +32,8 @@ if (isset($_SESSION['username'])) {
 <body>
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
-        <a class="navbar-brand" href="../index.php">
-            <img src="../image/icon.png" alt="logo"> Cinema
+        <a class="navbar-brand " href="#">
+        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
         <!-- Links -->

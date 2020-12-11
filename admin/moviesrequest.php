@@ -69,7 +69,7 @@ else{
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Logo cinema -->
         <a class="navbar-brand " href="#">
-            <img src="../image/icon.png " alt="logo "> <strong>Cinema</strong>
+        <img src="../image/2.png " alt="logo "> <strong>Cinema</strong>
         </a>
 
         <!-- Links -->

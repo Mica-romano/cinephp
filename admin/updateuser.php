@@ -69,7 +69,7 @@ if (isset($_POST['update'])) {
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
         <a class="navbar-brand " href="#">
-            <img src="../image/icon.png " alt="logo "> MoviesInfo
+        <img src="../image/2.png " alt="logo "> Cinema
         </a>
 
         <!-- Links -->
@@ -77,14 +77,22 @@ if (isset($_POST['update'])) {
         </ul>
         <!-- Links -->
         <ul class="navbar-nav ">
+        <li class="nav-item ">
+                <a class="nav-link " href=""> | Ingresar proyecciones</a>
+            </li>
+            </li> 
             <li class="nav-item ">
-                <a class="nav-link active " href="# ">Home</a>
+                <a class="nav-link " href="users.php"> | Gestionar usuarios</a>
+            </li>
+            </li> 
+            <li class="nav-item ">
+                <a class="nav-link" href=""> | Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link " href="users.php">Manage Users</a>
+                <a class="nav-link" href=""> | Entradas vendidas y remanentes</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="moviesrequest.php">Movies Request</a>
+                <a class="nav-link" href=""> | Dinero recaudado</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link" href="#" data-toggle="dropdown">

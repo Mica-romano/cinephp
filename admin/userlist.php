@@ -1,6 +1,6 @@
 <?php
 include('../controller/connectdb.php');
-//Validation
+//Validacion
 $sql = "SELECT * FROM userdata"; 
 $result = $conn->query($sql);
 $list = '';

@@ -186,17 +186,14 @@ a:hover {
 #topMovies1 img, #topMovies2 img, #topMovies3 img, #topMovies4 img, #topMovies5 img{
     width: 100%;
 } 
-
 .footer {
     text-align: center;
-    background-color:#222;
+    background-color:rgba(235, 8, 8, 0.397);
     color: silver;
     font-size: 16px;
     font-weight: bold;
-    padding: 20px 0 10px;
-}
-.cine{
-    background-color: red;
+    padding: 15px 0 5px;
+    
 
 
 }

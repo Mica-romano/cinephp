@@ -42,7 +42,6 @@ else{
         <!-- Links --> 
         <ul class="navbar-nav mr-auto ">
         </ul>
-        <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
                 <a class="nav-link active " href="index.php"> ✷ Inicio</a>

@@ -40,9 +40,9 @@ include('userlist.php');
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Logo -->
-        <a class="navbar-brand " href="#">
-            <img src="../image/icon.png " alt="logo "> Cinema
+       <!-- Logo -->
+       <a class="navbar-brand " href="#">
+        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
         <!-- Links -->

@@ -35,8 +35,8 @@ if (isset($_SESSION['username'])) {
 <body>
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Brand/logo -->
-        <a class="navbar-brand " href="#">
+               <!-- Logo -->
+       <a class="navbar-brand " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->
@@ -46,13 +46,13 @@ if (isset($_SESSION['username'])) {
         <!-- Links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="../index.php">Home</a>
+                <a class="nav-link" href="../index.php">✷ Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#">Buscar Peliculas</a>
+                <a class="nav-link active" href="#">✷ Buscar Peliculas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../index.php#popup1">Log In</a>
+                <a class="nav-link" href="../index.php#popup1">✷ Iniciar Sesion</a>
             </li>
         </ul>
     </nav>
@@ -65,18 +65,18 @@ if (isset($_SESSION['username'])) {
                 <div>
                     <center>
                         <div class="content">
-                            <h1 style="color: white">Cinema Movies: Informacion sobre mas de 10.000 peliculas</h1>
+                            <h1 style="color: white">★ Cinema ★ <br> Informacion sobre mas de 10.000 peliculas</h1><br>
                             <p style="color: white">
                                 Bienvenidos a
-                                <span style="font-weight:bold; color: #6AC045">Cinema Movies</span>  |En este sitio encontraras toda la informacion de tu pelicula favorita. Cinema Movies es reconocido por su excelencia.Aqui obtendras 
-                                <span style="font-weight:bold; color: #6AC045">Informacion  </span>| de todas y cada una de las peliculas estrenadas y no estrenadas.Proporcionamos esta informacion con la ayuda de   
-                                <span style="font-weight:bold; color: #6AC045">MovieDB </span> |Films conocidos por sus recursos cinematograficos .
-                                <span style="font-weight:bold; color: #6AC045">Buscador </span> |Obtenga aspectos detallados de su film favorito.
+                                <span style="font-weight:bold; color: red">Cinema</span>  |En este sitio encontraras toda la informacion de tu pelicula favorita. Cinema Movies es reconocido por su excelencia.Aqui obtendras 
+                                <span style="font-weight:bold; color: red">Informacion  </span>| de todas y cada una de las peliculas estrenadas y no estrenadas.Proporcionamos esta informacion con la ayuda de   
+                                <span style="font-weight:bold; color: red">MovieDB </span> |Films conocidos por sus recursos cinematograficos .
+                                <span style="font-weight:bold; color: red">Buscador </span> |Obtenga aspectos detallados de su film favorito.
                             </p>
                         </div>
                     </center>
                     <form id="searchForm">
-                        <input type="text" class="searchBox" placeholder="Search Movies here" id="searchText">
+                        <input type="text" class="searchBox" placeholder="Escribe la pelicula aqui" id="searchText">
                     </form>
                 </div>
             </div>

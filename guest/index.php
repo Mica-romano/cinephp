@@ -31,10 +31,9 @@ if (isset($_SESSION['username'])) {
 
 <body>
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Brand/logo -->
-
-        <a class="navbar-brand" href="../index.php">
-            <img src="../image/2.png " alt="logo"> CINEMA
+             <!-- Logo -->
+             <a class="navbar-brand " href="#">
+        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
         <!-- Links -->
@@ -44,13 +43,13 @@ if (isset($_SESSION['username'])) {
         <!-- Links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active" href="#">✷ Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="browse.php">Buscar Peliculas </a>
+                <a class="nav-link" href="browse.php">✷ Buscar Peliculas </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#popup1">Log In</a>
+                <a class="nav-link" href="#popup1">✷ Iniciar Sesion</a>
             </li>
         </ul>
     </nav>
@@ -58,7 +57,7 @@ if (isset($_SESSION['username'])) {
     <!-- Pop up boxes for login and registration -->
     <div id="popup1" class="popup-overlay">
         <div class="log-popup">
-            <h2>Log In</h2>
+            <h2>Iniciar Sesion</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
                 <form action="../controller/login.php" method="post">
@@ -76,7 +75,7 @@ if (isset($_SESSION['username'])) {
 
     <div id="popup2" class="popup-overlay">
         <div class="log-popup">
-            <h2>Sign Up</h2>
+            <h2>Registrarse</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
                 <form action="../controller/register.php" method="post">
@@ -92,7 +91,7 @@ if (isset($_SESSION['username'])) {
                     <i class="fa fa-lock icon"></i>
                     <input type="password" placeholder="Password" name="password" class="log-input" required>
                     <br>
-                    <input type="checkbox" name="chkbox" required> I agree to Terms and Conditions
+                    <input type="checkbox" name="chkbox" required>Acepto los terminos y condiciones*
                     <br>
                     <input type="submit" value="Sign Up" name="signup-btn" class="btn-log">
                 </form>
@@ -101,12 +100,12 @@ if (isset($_SESSION['username'])) {
     </div>
     <div id="success" class="popup-overlay">
         <div class="log-popup">
-            <h2>Success</h2>
+            <h2>Nuevo Usuario</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-                <p>Acoount is created Successfully.Now you can login your account :)</p>
+                <p>La cuenta se creo correctamente :) </p>
                 <a href="#popup1" class="btn-main btn-main-primary">
-                        Log In
+                        Iniciar Sesion
                 </a>
             </div>
         </div>
@@ -116,7 +115,7 @@ if (isset($_SESSION['username'])) {
             <h2>Error</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-                <p>Username or Email already exist :( Try Again...</p>
+                <p>El usuario o email no existe, intenta nuevamente</p>
             </div>
         </div>
     </div>
@@ -125,7 +124,7 @@ if (isset($_SESSION['username'])) {
             <h2>Error</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-                <p>No Account Found :( Try Again...</p>
+                <p>No se encontro ninguna cuenta. Intenta nuevamente </p>
             </div>
         </div>
     </div>
@@ -137,24 +136,24 @@ if (isset($_SESSION['username'])) {
         <div class="container body ">
             <center>
                 <div class="inner-body ">
-                    <h1 class="title ">Bienvenidos a 
-                        <span style="color: #6AC045 "> Cinema Movies</span>
+                    <h1 class="title "><span style="color:white">Bienvenidos a</span> 
+                        <span style="color: red "> ★ Cinema ★</span>
                     </h1>
                     <p style="color: white" class="content">
                         Bienvenidos a 
-                        <span style="font-weight:bold; color: #6AC045"></span> Cinema Movies en este sitio encontraras toda la informacion de tu pelicula favorita.Cinema Movies es reconocido por su excelencia.Aqui obtendras 
-                        <span style="font-weight:bold; color: #6AC045">Informacion</span> de todas y cada una de las peliculas estrenadas y no estrenadas.Proporcionamos esta informacion con la ayuda de    
-                        <span style="font-weight:bold; color: #6AC045">MovieDB </span> Films conocidos por sus recursos cinematograficos .
-                        <span style="font-weight:bold; color: #6AC045">Buscador</span> Obtenga aspectos detallados de su film favorito.
+                        <span style="font-weight:bold; color: red"></span> Cinema Movies en este sitio encontraras toda la informacion de tu pelicula favorita.Cinema Movies es reconocido por su excelencia.Aqui obtendras 
+                        <span style="font-weight:bold; color: red">Informacion</span> de todas y cada una de las peliculas estrenadas y no estrenadas.Proporcionamos esta informacion con la ayuda de    
+                        <span style="font-weight:bold; color: red">MovieDB </span> Films conocidos por sus recursos cinematograficos .
+                        <span style="font-weight:bold; color: red">Buscador</span> Obtenga aspectos detallados de su film favorito.
                             </p>
                     </p>
                 </div>
                 <div class="container">
                     <a href="#popup1" class="btn-main btn-main-primary">
-                        Log In
+                        Iniciar Sesion
                     </a>
                     <a href="#popup2" class="btn-main">
-                        Sign Up
+                        Registrarse
                     </a>
                 </div>
 
@@ -177,7 +176,7 @@ if (isset($_SESSION['username'])) {
 
    <div id="demo" class="carousel slide container" data-ride="carousel">
         <div class="ratedMoviesHead">
-            <h1>Top Rated Movies</h1>
+            <h1>Top Peliculas</h1>
         </div>
         <!-- Indicators -->
         <ul class="carousel-indicators">

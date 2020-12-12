@@ -16,7 +16,7 @@ if (isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Movie Information</title>
+    <title>Informacion de peliculas</title>
 
     <link rel="stylesheet" href="../css/movie.css">
 
@@ -31,8 +31,8 @@ if (isset($_SESSION['username'])) {
 <body>
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Brand/logo -->
-        <a class="navbar-brand " href="#">
+              <!-- Logo -->
+              <a class="navbar-brand " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->
@@ -42,13 +42,13 @@ if (isset($_SESSION['username'])) {
         <!-- Links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="../index.php">Home</a>
+                <a class="nav-link" href="../index.php">✷ Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="browse.php">Browse Movies</a>
+                <a class="nav-link active" href="browse.php">✷ Buscar peliculas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../index.php#popup1">Log In</a>
+                <a class="nav-link" href="../index.php#popup1">✷ Iniciar Sesion</a>
             </li>
         </ul>
     </nav>
@@ -65,7 +65,7 @@ if (isset($_SESSION['username'])) {
     </div>
 
     <div class="footer">
-        <p>&copy; Copyright Developed by Genius Coders.</p>
+        <p>&copy; Copyright MDP developers</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

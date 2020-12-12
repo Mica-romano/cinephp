@@ -80,8 +80,8 @@ else{
                 <a class="nav-link active " href="index.php"> ✷ Inicio</a>
            <!-- <li class="nav-item ">
                 <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>
-            </li>
-            </li> -->
+            </li>-->
+            </li> 
             <li class="nav-item ">
                 <a class="nav-link " href=""> ✷ Ingresar proyecciones</a>
             </li>

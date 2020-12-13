@@ -126,19 +126,10 @@ include('cinemaList.php');
     </div>
     <div id="success" class="popup-overlay">
         <div class="log-popup">
-            <h2>Success</h2>
+            <h2>Exito!</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-               <p style="color:black">La cuenta se ha creado existosamente</p> 
-            </div>
-        </div>
-    </div>
-    <div id="updatesuccess" class="popup-overlay">
-        <div class="log-popup">
-            <h2>Success</h2>
-            <a class="close-window" href="#">&times;</a>
-            <div class="log-content">
-               <p style="color:black">User Data successfuly Updated :)</p> 
+               <p style="color:black">Se ha agregado el cine exitosamente</p> 
             </div>
         </div>
     </div>
@@ -147,7 +138,16 @@ include('cinemaList.php');
             <h2>Error</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-               <p style="color:black">El usuario o email no existe. Intenta nuevamente</p> 
+               <p style="color:black">El cine no existe. Intenta nuevamente</p> 
+            </div>
+        </div>
+    </div>
+    <div id="updatecinesuccess" class="popup-overlay">
+        <div class="log-popup">
+            <h2>Exito!</h2>
+            <a class="close-window" href="#">&times;</a>
+            <div class="log-content">
+               <p style="color:black">Cine editado correctamente :)</p> 
             </div>
         </div>
     </div>

@@ -138,7 +138,7 @@ include('userlist.php');
             <h2>Success</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-               <p style="color:black">User Data successfuly Updated :)</p> 
+               <p style="color:black">Usuario editado correctamente :)</p> 
             </div>
         </div>
     </div>

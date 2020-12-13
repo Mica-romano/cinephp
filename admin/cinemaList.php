@@ -23,15 +23,15 @@ if($result->num_rows > 0) {
             </p>
         </div>
         <div class="col-md-4 box5">
-            <a href="../controller/deleteCinema.php?id='.$row["cineid"].'" class="btn btn-danger"> Borrar </a>
-            <a href="updateuser.php?id='.$row["cineid"].'" class="btn"> Editar </a>
+            <a href="../controller/deleteCinema.php?id='.$row["cinemaid"].'" class="btn btn-danger"> Borrar </a>
+            <a href="updatecinema.php?id='.$row["cinemaid"].'" class="btn"> Editar </a>
         </div>
     </div>            
         ';
     }
     
 } else {
-    $list = "There is no account created yet";
+    $list = "There is no cinema created yet";
 }
 
 // $_SESSION['list']= $list;

@@ -129,7 +129,7 @@ include('userlist.php');
             <h2>Success</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-               <p style="color:black">Acoount is created Successfully</p> 
+               <p style="color:black">La cuenta se creo existosamente</p> 
             </div>
         </div>
     </div>

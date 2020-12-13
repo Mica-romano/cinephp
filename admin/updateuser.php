@@ -77,22 +77,25 @@ if (isset($_POST['update'])) {
         </ul>
         <!-- Links -->
         <ul class="navbar-nav ">
+            <li class="nav-item ">
+                <a class="nav-link active " href="index.php "> ✷ Inicio</a>
+            <li class="nav-item ">
         <li class="nav-item ">
-                <a class="nav-link " href=""> | Ingresar proyecciones</a>
+                <a class="nav-link " href=""> ✷ Ingresar proyecciones</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link " href="users.php"> | Gestionar usuarios</a>
+                <a class="nav-link " href="users.php"> ✷ Gestionar usuarios</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Administrar cines</a>
+                <a class="nav-link" href=""> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Entradas vendidas y remanentes</a>
+                <a class="nav-link" href=""> ✷ Entradas vendidas y remanentes</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Dinero recaudado</a>
+                <a class="nav-link" href=""> ✷ Dinero recaudado</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link" href="#" data-toggle="dropdown">
@@ -100,7 +103,7 @@ if (isset($_POST['update'])) {
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['username'] ?></a>
-                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
+                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Cerrar sesion</a>
                 </div>
             </li>
         </ul>
@@ -108,23 +111,23 @@ if (isset($_POST['update'])) {
 
     <header>
         <div class="container req-box" >
-        <center><h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: #6AC045">Update User Data</span></h3></center>
+        <center><h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: red">Modificar Informacion de Usuario</span></h3></center>
             <form action="" method="post">
                 <div class="row">
                     <div class="col-md-6 box1">
                         
-                        <label for="title">Fullname:</label><br>
+                        <label for="title">Nombre y apellido:</label><br>
                         <input type="text" name="fname" class="input" value="<?php echo $row['Fullname'];?>" required  ><br>
                         <label for="title">Email:</label><br>
                         <input type="email" name="email" class="input" value="<?php echo $row['Email'];?>" required><br>
                     
                     </div>
                     <div class="col-md-6 box1">
-                        <label for="title">Username:</label><br>
+                        <label for="title">Usuario:</label><br>
                         <input type="text" name="username" class="input" value="<?php echo $row['Username'];?>" required><br>
-                        <label for="title">Password:</label><br>
+                        <label for="title">Contraseña:</label><br>
                         <input type="text" name="password" class="input" value="<?php echo $row['Pass'];?>" required><br>
-                        <input type="submit"  class="btn" name="update" value="Update User Data">
+                        <input type="submit"  class="btn" name="update" value="Actualizar informacion de usuario">
                     </div>
                 </div>   
             </form>

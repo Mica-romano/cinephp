@@ -95,7 +95,7 @@ include('cinemaList.php');
                     <?php 
                     echo $list;
                     ?>
-                    <a href="#popup2" class="btn"> Agregar nueva cuenta</a>
+                    <a href="#popup2" class="btn"> Agregar nuevo cine</a>
                 </div>
             </div>   
         </form>
@@ -103,23 +103,23 @@ include('cinemaList.php');
 
     <div id="popup2" class="popup-overlay">
         <div class="log-popup">
-            <h2>Agregar nueva cuenta</h2>
+            <h2>Agregar nuevo cine</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
                 <form action="../controller/register.php" method="post">
                     <i class="fa fa-user icon"></i>
-                    <input type="text" placeholder="Nombre y Apellido" name="fullname" class="log-input" required>
+                    <input type="text" placeholder="Nombre del Cine" name="cineName" class="log-input" required>
                     <br>
                     <i class="fa fa-envelope icon"></i>
-                    <input type="email" placeholder="Email" name="email" class="log-input" required>
+                    <input type="text" placeholder="Direccion" name="address" class="log-input" required>
                     <br>
                     <i class="fa fa-link icon"></i>
-                    <input type="text" placeholder="Nombre de Usuario" name="username" class="log-input" required>
+                    <input type="text" placeholder="Capacidad" name="capacity" class="log-input" required>
                     <br>
                     <i class="fa fa-lock icon"></i>
-                    <input type="password" placeholder="Contraseña" name="password" class="log-input" required>
+                    <input type="text" placeholder="Precio Entrada" name="ticketPrice" class="log-input" required>
                     <br>
-                    <input type="submit" value="Sign Up" name="signup-btn" class="btn-log">
+                    <input type="submit" value="Agregar" name="signup-btn" class="btn-log">
                 </form>
             </div>
         </div>
@@ -129,7 +129,7 @@ include('cinemaList.php');
             <h2>Success</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-               <p style="color:black">Acoount is created Successfully</p> 
+               <p style="color:black">La cuenta se ha creado existosamente</p> 
             </div>
         </div>
     </div>
@@ -147,7 +147,7 @@ include('cinemaList.php');
             <h2>Error</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-               <p style="color:black">Username or Email already exist :( Please try again</p> 
+               <p style="color:black">El usuario o email no existe. Intenta nuevamente</p> 
             </div>
         </div>
     </div>

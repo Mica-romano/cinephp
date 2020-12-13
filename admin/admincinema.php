@@ -12,7 +12,7 @@ else{
 
 // $list = $_SESSION['list'];
 // $total = $_SESSION['total'];
-include('userlist.php');
+include('cinemaList.php');
 
 
 ?>
@@ -41,7 +41,7 @@ include('userlist.php');
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Logo -->
-        <a class="navbar-brand " href="#">
+        <a class="navbar-brand " href="../index.php ">
             <img src="../image/icon.png " alt="logo "> Cinema
         </a>
 
@@ -51,7 +51,7 @@ include('userlist.php');
         <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active " href="index.php "> | Inicio</a>
+                <a class="nav-link active " href="../index.php "> | Inicio</a>
             <li class="nav-item ">
                 <!-- <li class="nav-item ">
                 <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>

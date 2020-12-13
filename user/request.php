@@ -32,8 +32,8 @@ else{
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Brand/logo -->
-        <a class="navbar-brand " href="#">
+               <!-- Logo -->
+       <a class="navbar-brand " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->
@@ -56,7 +56,7 @@ else{
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['username'] ?></a>
-                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
+                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Cerrar sesion</a>
                 </div>
             </li>
         </ul>

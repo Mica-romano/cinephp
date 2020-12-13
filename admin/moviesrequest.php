@@ -73,29 +73,31 @@ else{
         </a>
 
         <!-- Links -->
+        <ul class="navbar-nav mr-auto ">
+        </ul>
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active " href="index.php "> | Inicio</a>
-            <li class="nav-item ">
-                <!-- <li class="nav-item ">
+                <a class="nav-link active " href="index.php"> ✷ Inicio</a>
+           <!-- <li class="nav-item ">
                 <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>
-            </li>
-            </li> -->
-                <a class="nav-link" href=""> | Ingresar proyecciones</a>
-            </li>
-            </li>
+            </li>-->
+            </li> 
             <li class="nav-item ">
-                <a class="nav-link " href="users.php"> | Gestionar usuarios</a>
+                <a class="nav-link " href=""> ✷ Ingresar proyecciones</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Administrar cines</a>
+                <a class="nav-link " href="users.php"> ✷ Gestionar usuarios</a>
+            </li>
+            </li> 
+            <li class="nav-item ">
+                <a class="nav-link" href="admincinema.php"> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Entradas vendidas y remanentes</a>
+                <a class="nav-link" href=""> ✷ Entradas vendidas y remanentes</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Dinero recaudado</a>
+                <a class="nav-link" href=""> ✷ Dinero recaudado</a>
             </li>
 
             <li class="nav-item dropdown dropleft">

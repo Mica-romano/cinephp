@@ -39,37 +39,36 @@ else{
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
-        <!-- Links -->
+        <!-- Links --> 
         <ul class="navbar-nav mr-auto ">
         </ul>
-        <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active " href="index.php"> | Inicio</a>
+                <a class="nav-link active " href="index.php"> ✷ Inicio</a>
            <!-- <li class="nav-item ">
                 <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>
             </li>
             </li> -->
             <li class="nav-item ">
-                <a class="nav-link " href=""> | Ingresar proyecciones</a>
+                <a class="nav-link " href=""> ✷ Ingresar proyecciones</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link " href="users.php"> | Gestionar usuarios</a>
+                <a class="nav-link " href="users.php"> ✷ Gestionar usuarios</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link" href="admincinema.php"> | Administrar cines</a>
+                <a class="nav-link" href="admincinema.php"> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Entradas vendidas y remanentes</a>
+                <a class="nav-link" href=""> ✷ Entradas vendidas y remanentes</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> | Dinero recaudado</a>
+                <a class="nav-link" href=""> ✷ Dinero recaudado</a>
             </li>
 
             <li class="nav-item dropdown dropleft">
-                <a class="nav-link" href="#" data-toggle="dropdown"> | Cuenta
+                <a class="nav-link" href="#" data-toggle="dropdown"> ✷ Cuenta
                     <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
                 </a>
                 <div class="dropdown-menu">
@@ -83,15 +82,15 @@ else{
         <div class="container body ">
             <center>
                 <div class=" inner-body ">
-                    <h1 class="title "> Cinema <br>
+                    <h1 class="title ">★ Cinema ★<br>
                         <span style="color: white;">Panel de Administrador</span>
                     </h1>
                     <p style="color: white" class="content">
                        Bienvenido a 
-                        <span style="font-weight:bold; color: red">Cinema MDP</span> | En esta seccion podras administrar la informacion de cada 
-                        <span style="font-weight:bold; color: red">Cine y proyeccion.</span> Con la ayuda de la pagina de 
+                        <span style="font-weight:bold; color: red">Cinema</span> | En esta seccion podras administrar la informacion de cada 
+                        cine y proyeccion.</span> Con la ayuda de la pagina de 
                         <span style="font-weight:bold; color: red">MovieDB </span> podras obtener una amplia lista de peliculas para utilizar en tu 
-                        <span style="font-weight:bold; color: red">Cartelera de cine</span> 
+                        <span style="font-weight:bold; color: red">Cartelera de cine.</span> 
                     </p>
                 </div>
                 <div class="container">

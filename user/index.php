@@ -38,24 +38,23 @@ else{
 
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Brand/logo -->
-        <a class="navbar-brand " href="#">
+              <!-- Logo -->
+              <a class="navbar-brand " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
         <!-- Links -->
         <ul class="navbar-nav mr-auto ">
         </ul>
-        <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active " href="# ">Inicio</a>
+                <a class="nav-link active " href="# ">✷ Inicio</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link " href="browse.php">Buscador</a>
+                <a class="nav-link " href="browse.php">✷ Buscador</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="request.php">Request</a>
+                <a class="nav-link" href="request.php">✷ Request</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link" href="#" data-toggle="dropdown">
@@ -63,7 +62,7 @@ else{
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['username'] ?></a>
-                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
+                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Cerrar sesion</a>
                 </div>
             </li>
         </ul>
@@ -74,22 +73,22 @@ else{
         <div class="container body ">
             <center>
                 <div class=" inner-body ">
-                    <h1 class="title ">Welcome,
-                        <span style="color: #6AC045; text-transform:lowercase;"><?php echo $_SESSION['username'] ?></span>
+                    <h1 class="title ">Bienvenido
+                        <span style="color: white; text-transform:lowercase;"><?php echo $_SESSION['username'] ?></span>
                     </h1>
                     <p style="color: white" class="content">
-                        Welcome to
-                        <span style="font-weight:bold; color: #6AC045">MoviesInfo</span> | It is site where you can view information about your favourite movie. MoviesInfo
+                       Bienvenido a 
+                        <span style="font-weight:bold; color: red">MoviesInfo</span> | It is site where you can view information about your favourite movie. MoviesInfo
                         are best known for the excellent
-                        <span style="font-weight:bold; color: #6AC045">Information</span> for each and every released and not released movies. We are providing this information
+                        <span style="font-weight:bold; color: red">Information</span> for each and every released and not released movies. We are providing this information
                         by the help of
-                        <span style="font-weight:bold; color: #6AC045">MovieDB </span> which known for their movies resources.
-                        <span style="font-weight:bold; color: #6AC045">Browse</span> Movie and get detail aspect of your favourite movie.
+                        <span style="font-weight:bold; color: red">MovieDB </span> which known for their movies resources.
+                        <span style="font-weight:bold; color: red">Browse</span> Movie and get detail aspect of your favourite movie.
                     </p>
                 </div>
                 <div class="container">
                     <a href="browse.php" class="btn-main btn-main-primary">
-                        Browse Movies Now
+                        Buscar peliculas
                     </a>
                 </div>
 
@@ -100,7 +99,7 @@ else{
     <div class="about-box ">
         <center>
             <div class="about ">
-                <h1>About this site</h1>
+                <h1>Sobre este sitio</h1>
                 <p class="about-content ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nobis officiis, labore non molestias maxime,
                     corporis saepe voluptatibus culpa sequi minus vitae qui eos expedita quos placeat consectetur voluptas
                     ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quos, aut voluptatum
@@ -112,7 +111,7 @@ else{
 
     <div id="demo" class="carousel slide container" data-ride="carousel">
         <div class="ratedMoviesHead">
-            <h1>Top Rated Movies</h1>
+            <h1>Top Peliculas</h1>
         </div>
         <!-- Indicators -->
         <ul class="carousel-indicators">

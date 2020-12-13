@@ -19,7 +19,7 @@ else{
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Movie Information</title>
+    <title>Informacion de peliculas</title>
 
     <link rel="stylesheet" href="../css/movie.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
@@ -33,11 +33,10 @@ else{
 <body>
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-        <!-- Brand/logo -->
-        <a class="navbar-brand " href="#">
+               <!-- Logo -->
+       <a class="navbar-brand " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
-
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
 
@@ -45,13 +44,13 @@ else{
         <!-- Links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="index.php">✷ Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="browse.php">Browse Movies</a>
+                <a class="nav-link active" href="browse.php">✷ Buscar peliculas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="request.php">Request</a>
+                <a class="nav-link" href="request.php">✷ Request</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link" href="#" data-toggle="dropdown">
@@ -59,7 +58,7 @@ else{
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['username'] ?></a>
-                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
+                    <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Cerrar Sesion</a>
                 </div>
             </li>
         </ul>
@@ -71,13 +70,13 @@ else{
     </div>
     <div class="container">
         <div class="container main-review">
-            <h1 class="title-second review-text">Movie Review</h1>
+            <h1 class="title-second review-text">Reseñas</h1>
             <div id="reviews"></div>
         </div>
     </div>
 
     <div class="footer">
-        <p>&copy; Copyright Developed by Genius Coders.</p>
+        <p>&copy; Copyright MDP Developers.</p>
     </div>
 
     <!-- jQuery library -->

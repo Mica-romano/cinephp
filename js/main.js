@@ -234,7 +234,7 @@ function getMovie() {
         });
 }
 
-//// for top rated movies
+//// Para top peliculas
 function getTopMovies() {
     axios.get('https://api.themoviedb.org/3/movie/top_rated?api_key=c8d76c464c6627dea962b5bab71d2761&language=es-AR&page=1')
         .then((response) => {

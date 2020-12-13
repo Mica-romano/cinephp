@@ -40,15 +40,9 @@ include('cinemaList.php');
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-<<<<<<< HEAD
-        <!-- Logo -->
-        <a class="navbar-brand " href="../index.php ">
-            <img src="../image/icon.png " alt="logo "> Cinema
-=======
        <!-- Logo -->
        <a class="navbar-brand " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
->>>>>>> bf8ef6da696508cc9826ace01f8da97f70107117
         </a>
 
         <!-- Links -->
@@ -57,11 +51,7 @@ include('cinemaList.php');
         <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
-<<<<<<< HEAD
-                <a class="nav-link active " href="../index.php "> | Inicio</a>
-=======
                 <a class="nav-link active " href="index.php "> ✷ Inicio</a>
->>>>>>> bf8ef6da696508cc9826ace01f8da97f70107117
             <li class="nav-item ">
                 <!-- <li class="nav-item ">
                 <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>

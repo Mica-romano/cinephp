@@ -106,17 +106,17 @@ include('cinemaList.php');
             <h2>Agregar nuevo cine</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
-                <form action="../controller/register.php" method="post">
-                    <i class="fa fa-user icon"></i>
+                <form action="../admin/addcinema.php" method="post">
+                    <i class="fa fa-video-camera icon"></i>
                     <input type="text" placeholder="Nombre del Cine" name="cineName" class="log-input" required>
                     <br>
-                    <i class="fa fa-envelope icon"></i>
+                    <i class="fa fa-info icon"></i>
                     <input type="text" placeholder="Direccion" name="address" class="log-input" required>
                     <br>
-                    <i class="fa fa-link icon"></i>
+                    <i class="fa fa-users icon"></i>
                     <input type="text" placeholder="Capacidad" name="capacity" class="log-input" required>
                     <br>
-                    <i class="fa fa-lock icon"></i>
+                    <i class="fa fa-usd icon"></i>
                     <input type="text" placeholder="Precio Entrada" name="ticketPrice" class="log-input" required>
                     <br>
                     <input type="submit" value="Agregar" name="signup-btn" class="btn-log">

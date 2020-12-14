@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jun 06, 2018 at 05:42 AM
--- Server version: 10.1.32-MariaDB
--- PHP Version: 7.2.5
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 14-12-2020 a las 23:32:53
+-- Versión del servidor: 10.4.11-MariaDB
+-- Versión de PHP: 7.4.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,13 +18,36 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `moviesinfo`
+-- Base de datos: `moviesinfo`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `request`
+-- Estructura de tabla para la tabla `cinema`
+--
+
+CREATE TABLE `cinema` (
+  `cinemaid` int(11) NOT NULL,
+  `cineName` varchar(30) NOT NULL,
+  `capacity` int(11) NOT NULL,
+  `address` varchar(30) NOT NULL,
+  `ticketPrice` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `cinema`
+--
+
+INSERT INTO `cinema` (`cinemaid`, `cineName`, `capacity`, `address`, `ticketPrice`) VALUES
+(1, 'ambasador', 50, 'Cordoba 1732', 150),
+(2, 'paseo diagonal', 30, 'Diagonal Pueyrredon 1280', 150),
+(4, 'cordoba', 20, 'cordoba 1281', 120);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `request`
 --
 
 CREATE TABLE `request` (
@@ -36,7 +58,7 @@ CREATE TABLE `request` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `request`
+-- Volcado de datos para la tabla `request`
 --
 
 INSERT INTO `request` (`RequestId`, `RequestUser`, `RequestTitle`, `RequestMessage`) VALUES
@@ -45,7 +67,7 @@ INSERT INTO `request` (`RequestId`, `RequestUser`, `RequestTitle`, `RequestMessa
 -- --------------------------------------------------------
 
 --
--- Table structure for table `userdata`
+-- Estructura de tabla para la tabla `userdata`
 --
 
 CREATE TABLE `userdata` (
@@ -58,44 +80,57 @@ CREATE TABLE `userdata` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `userdata`
+-- Volcado de datos para la tabla `userdata`
 --
 
 INSERT INTO `userdata` (`UserId`, `Username`, `Pass`, `Fullname`, `Email`, `status`) VALUES
 (1, 'admin', 'admin', 'admin', 'admin@moviesinfo.cf', 'admin'),
-(22, 'codersgenius', 'coders', 'Genius Coders', 'codersgenius@gmail.com', 'user');
+(22, 'codersgenius', 'coders', 'Genius Coders', 'codersgenius@gmail.com', 'user'),
+(26, 'rocio', '1234', 'rocio', 'rocio@rocio', 'user');
 
 --
--- Indexes for dumped tables
+-- Índices para tablas volcadas
 --
 
 --
--- Indexes for table `request`
+-- Indices de la tabla `cinema`
+--
+ALTER TABLE `cinema`
+  ADD PRIMARY KEY (`cinemaid`);
+
+--
+-- Indices de la tabla `request`
 --
 ALTER TABLE `request`
   ADD PRIMARY KEY (`RequestId`);
 
 --
--- Indexes for table `userdata`
+-- Indices de la tabla `userdata`
 --
 ALTER TABLE `userdata`
   ADD PRIMARY KEY (`UserId`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT de las tablas volcadas
 --
 
 --
--- AUTO_INCREMENT for table `request`
+-- AUTO_INCREMENT de la tabla `cinema`
+--
+ALTER TABLE `cinema`
+  MODIFY `cinemaid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT de la tabla `request`
 --
 ALTER TABLE `request`
   MODIFY `RequestId` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT for table `userdata`
+-- AUTO_INCREMENT de la tabla `userdata`
 --
 ALTER TABLE `userdata`
-  MODIFY `UserId` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `UserId` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

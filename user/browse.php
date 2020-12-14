@@ -37,24 +37,24 @@ else{
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
                <!-- Logo -->
-       <a class="navbar-brand " href="#">
-        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
+       <a class="navbar-brand text-danger " href="#">
+        <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->
         <ul class="navbar-nav mr-auto ">
         </ul>
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active " href="# ">✷ Inicio</a>
+                <a class="nav-link active  text-white" href="# ">✷ Inicio</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link " href="browse.php">✷ Buscador</a>
+                <a class="nav-link text-white" href="browse.php">✷ Buscador</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="request.php">✷ Request</a>
+                <a class="nav-link text-white" href="request.php">✷ Request</a>
             </li>
             <li class="nav-item dropdown dropleft">
-                <a class="nav-link" href="#" data-toggle="dropdown">
+                <a class="nav-link text-white" href="#" data-toggle="dropdown">
                     <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
                 </a>
                 <div class="dropdown-menu">

@@ -32,8 +32,8 @@ if (isset($_SESSION['username'])) {
 <body>
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
              <!-- Logo -->
-             <a class="navbar-brand " href="#">
-        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
+             <a class="navbar-brand text-danger" href="#">
+        <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
         <!-- Links -->
@@ -43,18 +43,18 @@ if (isset($_SESSION['username'])) {
         <!-- Links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" href="#">✷ Inicio</a>
+                <a class="nav-link active text-white" href="#">✷ Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="browse.php">✷ Buscar Peliculas </a>
+                <a class="nav-link text-white" href="browse.php">✷ Buscar Peliculas </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#popup1">✷ Iniciar Sesion</a>
+                <a class="nav-link text-white" href="#popup1">✷ Iniciar Sesion</a>
             </li>
         </ul>
     </nav>
 
-    <!-- Pop up boxes for login and registration -->
+    <!-- Iniciar sesion y registro -->
     <div id="popup1" class="popup-overlay">
         <div class="log-popup">
             <h2>Iniciar Sesion</h2>
@@ -161,7 +161,7 @@ if (isset($_SESSION['username'])) {
         </div>
     </header>
 
-    <div class="about-box ">
+    <div class="about-box bg-secondary ">
         <center>
             <div class="about ">
                 <h1>Acerca de este sitio</h1>

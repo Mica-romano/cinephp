@@ -42,7 +42,7 @@ include('userlist.php');
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Logo -->
         <a class="navbar-brand " href="#">
-        <img src="../image/2.png " alt="logo "> Cinema
+        <img src="../image/8.png " alt="logo "> Cinema
         </a>
 
         <!-- Links -->

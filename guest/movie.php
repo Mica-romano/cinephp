@@ -32,8 +32,8 @@ if (isset($_SESSION['username'])) {
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
               <!-- Logo -->
-              <a class="navbar-brand " href="#">
-        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
+              <a class="navbar-brand text-white" href="#">
+        <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
@@ -42,13 +42,13 @@ if (isset($_SESSION['username'])) {
         <!-- Links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="../index.php">✷ Inicio</a>
+                <a class="nav-link text-white" href="../index.php">✷ Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="browse.php">✷ Buscar peliculas</a>
+                <a class="nav-link active text-white" href="browse.php">✷ Buscar peliculas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../index.php#popup1">✷ Iniciar Sesion</a>
+                <a class="nav-link text-white" href="../index.php#popup1">✷ Iniciar Sesion</a>
             </li>
         </ul>
     </nav>

@@ -77,7 +77,17 @@ if (isset($_SESSION['username'])) {
                     </center>
                     <form id="searchForm">
                         <input type="text" class="searchBox" placeholder="Escribe la pelicula aqui" id="searchText">
+                        
                     </form>
+                    <br>
+                    
+                    <a href="browseGender.php" class="btn btn-outline-danger">
+                        Buscar por Género
+                    </a>
+                    <a href="#popup2" class="btn btn-outline-danger">
+                        Buscar por fecha
+                    </a>
+                
                 </div>
             </div>
         </div>

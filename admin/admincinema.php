@@ -41,7 +41,7 @@ include('cinemaList.php');
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
        <!-- Logo -->
-       <a class="navbar-brand " href="#">
+       <a class="navbar-brand text-danger " href="#">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
@@ -57,22 +57,22 @@ include('cinemaList.php');
                 <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>
             </li>
             </li> -->
-            <li class="nav-item ">
+            <li class="nav-item text-white">
                 <a class="nav-link " href=""> ✷ Ingresar proyecciones</a>
             </li>
             </li> 
-            <li class="nav-item ">
+            <li class="nav-item text-white ">
                 <a class="nav-link " href="users.php"> ✷ Gestionar usuarios</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link" href="admincinema.php"> ✷ Administrar cines</a>
+                <a class="nav-link text-white" href="admincinema.php"> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> ✷ Entradas vendidas y remanentes</a>
+                <a class="nav-link text-white" href=""> ✷ Entradas vendidas y remanentes</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> ✷ Dinero recaudado</a>
+                <a class="nav-link text-white" href=""> ✷ Dinero recaudado</a>
             </li>
 
             <li class="nav-item dropdown dropleft">

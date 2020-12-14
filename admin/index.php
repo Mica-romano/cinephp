@@ -33,42 +33,43 @@ else{
 </head>
 
 <body> 
-     < <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  <!-- style="background-color: blue" bg-secondary-->
+      <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  <!--navbar navbar-expand-sm bg-secondary navbar-dark fixed-top-->
         <!-- Brand/logo -->
-        <a class="navbar-brand " href="#">
-        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
+        <a class="navbar-brand text-danger " href="#">
+        <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
         <!-- Links --> 
-        <ul class="navbar-nav mr-auto ">
+        <ul class="nav-nav mr-auto"> 
         </ul>
-        <ul class="navbar-nav ">
-            <li class="nav-item ">
-                <a class="nav-link active " href="index.php"> ✷ Inicio</a>
+        
+        <ul class="navbar-nav">
+            <li class="nav-item text-white">
+                <a class="nav-link active text-white " href="index.php"> ✷ Inicio</a>
            <!-- <li class="nav-item ">
                 <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>
             </li>
             </li> -->
             <li class="nav-item ">
-                <a class="nav-link " href=""> ✷ Ingresar proyecciones</a>
+                <a class="nav-link text-white" href=""> ✷ Ingresar proyecciones</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link " href="users.php"> ✷ Gestionar usuarios</a>
+                <a class="nav-link text-white " href="users.php"> ✷ Gestionar usuarios</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link" href="admincinema.php"> ✷ Administrar cines</a>
+                <a class="nav-link text-white " href="admincinema.php"> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> ✷ Entradas vendidas y remanentes</a>
+                <a class="nav-link text-white" href=""> ✷ Stock entradas</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> ✷ Dinero recaudado</a>
+                <a class="nav-link text-white" href=""> ✷ Dinero recaudado</a>
             </li>
 
-            <li class="nav-item dropdown dropleft">
-                <a class="nav-link" href="#" data-toggle="dropdown"> ✷ Cuenta
+            <li class="nav-item dropdown dropleft ">
+                <a class="nav-link text-white " href="#" data-toggle="dropdown"> ✷ Cuenta
                     <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
                 </a>
                 <div class="dropdown-menu">
@@ -79,7 +80,7 @@ else{
         </ul>
     </nav>
     <header>
-        <div class="container body ">
+        <div class="container-sm body ">
             <center>
                 <div class=" inner-body ">
                     <h1 class="title ">★ Cinema ★<br>

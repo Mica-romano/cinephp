@@ -69,7 +69,7 @@ if (isset($_POST['update'])) {
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
        <!-- Logo -->
        <a class="navbar-brand " href="#">
-        <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
+        <img src="../image/8.png text-danger " alt="logo "> <strong> CINEMA</strong>
         </a>
 
         <!-- Links -->
@@ -78,27 +78,27 @@ if (isset($_POST['update'])) {
         <!-- Links -->
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active " href="index.php "> ✷ Inicio</a>
+                <a class="nav-link active text-white " href="index.php "> ✷ Inicio</a>
             <li class="nav-item ">
         <li class="nav-item ">
-                <a class="nav-link " href=""> ✷ Ingresar proyecciones</a>
+                <a class="nav-link text-white " href=""> ✷ Ingresar proyecciones</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link " href="users.php"> ✷ Gestionar usuarios</a>
+                <a class="nav-link text-white " href="users.php"> ✷ Gestionar usuarios</a>
             </li>
             </li> 
             <li class="nav-item ">
-                <a class="nav-link" href=""> ✷ Administrar cines</a>
+                <a class="nav-link text-white" href=""> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> ✷ Entradas vendidas y remanentes</a>
+                <a class="nav-link text-white" href=""> ✷ Entradas vendidas y remanentes</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> ✷ Dinero recaudado</a>
+                <a class="nav-link text-white" href=""> ✷ Dinero recaudado</a>
             </li>
             <li class="nav-item dropdown dropleft">
-                <a class="nav-link" href="#" data-toggle="dropdown">
+                <a class="nav-link text-white" href="#" data-toggle="dropdown">
                     <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
                 </a>
                 <div class="dropdown-menu">

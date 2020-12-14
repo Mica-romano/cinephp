@@ -22,8 +22,8 @@ if($result->num_rows > 0) {
             </p>
         </div>
         <div class="col-md-4 box5">
-            <a href="../controller/deleteuser.php?id='.$row["UserId"].'" class="btn btn-danger"> Delete</a>
-            <a href="updateuser.php?id='.$row["UserId"].'" class="btn"> Update</a>
+            <a href="../controller/deleteuser.php?id='.$row["UserId"].'" class="btn btn-danger"> Eliminar </a>
+            <a href="updateuser.php?id='.$row["UserId"].'" class="btn btn-outline-info"> Modificar datos </a>
         </div>
     </div>            
         ';

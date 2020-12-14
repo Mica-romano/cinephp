@@ -38,7 +38,7 @@ include('userlist.php');
 
     <link rel="stylesheet" href="../css/popup.css">
 </head>
-<body>
+<body background="...\image\fondo.jgp">
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Logo -->
         <a class="navbar-brand " href="#">
@@ -91,7 +91,7 @@ include('userlist.php');
         <form action="" method="post">
             <div class="row">
                 <div class="col-md-10 box1">
-                    <h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: red">Lista de usuarios </span>(<?php echo $total ?>)</h3>
+                    <h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: yellow">Lista de usuarios </span>(<?php echo $total ?>)</h3>
                     <?php 
                     echo $list;
                     ?>

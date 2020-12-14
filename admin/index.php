@@ -84,18 +84,18 @@ else{
             <center>
                 <div class=" inner-body ">
                     <h1 class="title ">★ Cinema ★<br>
-                        <span style="color: white;">Panel de Administrador</span>
+                        <span style="color: yellow;">Panel de Administrador</span>
                     </h1>
                     <p style="color: white" class="content">
                        Bienvenido a 
-                        <span style="font-weight:bold; color: red">Cinema</span> | En esta seccion podras administrar la informacion de cada 
+                        <span style="font-weight:bold; color: yellow">Cinema</span> | En esta seccion podras administrar la informacion de cada 
                         cine y proyeccion.</span> Con la ayuda de la pagina de 
-                        <span style="font-weight:bold; color: red">MovieDB </span> podras obtener una amplia lista de peliculas para utilizar en tu 
-                        <span style="font-weight:bold; color: red">Cartelera de cine.</span> 
+                        <span style="font-weight:bold; color: yellow">MovieDB </span> podras obtener una amplia lista de peliculas para utilizar en tu 
+                        <span style="font-weight:bold; color: yellow">Cartelera de cine.</span> 
                     </p>
                 </div>
                 <div class="container">
-                    <a href="moviesrequest.php" class="btn-main">
+                    <a href="moviesrequest.php" class="btn-main ">
                         Ingresar proyecciones
                     </a>
                     <a href="users.php" class="btn-main ">

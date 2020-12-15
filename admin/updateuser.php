@@ -124,9 +124,9 @@ if (isset($_POST['update'])) {
                     </div>
                     <div class="col-md-6 box1">
                         <label for="title">Usuario:</label><br>
-                        <input type="text" name="username" class="input" value="<?php echo $row['Username'];?>" required><br>
+                        <input type="text" name="Usuario" class="input" value="<?php echo $row['Username'];?>" required><br>
                         <label for="title">Contraseña:</label><br>
-                        <input type="text" name="password" class="input" value="<?php echo $row['Pass'];?>" required><br>
+                        <input type="text" name="Contraseña" class="input" value="<?php echo $row['Pass'];?>" required><br>
                         <input type="submit"  class="btn" name="update" value="Actualizar informacion de usuario">
                     </div>
                 </div>   
@@ -135,7 +135,7 @@ if (isset($_POST['update'])) {
     </header>
 
     <div class="footer">
-        <p>&copy; Copyright Developed by Genius Coders.</p>
+        <p>&copy; Copyright MDP Developers.</p>
     </div>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

@@ -136,17 +136,16 @@ if (isset($_SESSION['username'])) {
         <div class="container body ">
             <center>
                 <div class="inner-body ">
-                    <h1 class="title "><span style="color:white">Bienvenidos a</span> 
+                    <h1 class="title "><span style="color:white">Bienvenido a</span> 
                         <span style="color: red "> ★ Cinema ★</span>
                     </h1>
-                    <p style="color: white" class="content">
-                        Bienvenidos a 
-                        <span style="font-weight:bold; color: red"></span> Cinema Movies en este sitio encontraras toda la informacion de tu pelicula favorita.Cinema Movies es reconocido por su excelencia.Aqui obtendras 
-                        <span style="font-weight:bold; color: red">Informacion</span> de todas y cada una de las peliculas estrenadas y no estrenadas.Proporcionamos esta informacion con la ayuda de    
-                        <span style="font-weight:bold; color: red">MovieDB </span> Films conocidos por sus recursos cinematograficos .
-                        <span style="font-weight:bold; color: red">Buscador</span> Obtenga aspectos detallados de su film favorito.
-                            </p>
-                    </p>
+                    <br>
+                   <h3> <p style="color: white">
+                               En este sitio podras comprar entradas para peliculas en estreno en la ciudad de Mar del Plata. Aqui encontraras toda la
+                                <span style="font-weight:bold; color: red">Informacion</span> de cada pelicula y saber en que cines se proyecta cada film. Gracias a la colaboracion de
+                                <span style="font-weight:bold; color: red"> MovieDB </span> podras ver la Informacion de todas y cada una de las peliculas estrenadas y no estrenadas. 
+                                
+                            </p></h3>
                 </div>
                 <div class="container">
                     <a href="#popup1" class="btn-main btn-main-primary">

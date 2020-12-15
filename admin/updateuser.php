@@ -66,10 +66,10 @@ if (isset($_POST['update'])) {
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-       <!-- Logo -->
-       <a class="navbar-brand " href="#">
-        <img src="../image/8.png text-danger " alt="logo "> <strong> CINEMA</strong>
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  <!--navbar navbar-expand-sm bg-secondary navbar-dark fixed-top-->
+        <!-- Brand/logo -->
+        <a class="navbar-brand text-danger " href="#">
+        <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
         <!-- Links -->

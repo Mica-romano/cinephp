@@ -13,15 +13,86 @@ $(document).ready(() => {
 })
 
 
-
 // var btn = document.getElementById('searchBtn');
 // var search = document.getElementById('searchBox')
 // btn.addEventListener('submit', (event) => {
 //     e.preventDefault()
 //     getMovies(search.value);
 // })
+
 function popularMovies() {
     axios.get('https://api.themoviedb.org/3/movie/popular?api_key=5ec279387e9aa9488ef4d00b22acc451&language=es-AR&page=1')
+        .then((response) => {
+            console.log(response);
+
+            let movies = response.data.results;
+            let output = '';
+            $.each(movies, (index, movie) => {
+
+                if (movie.poster_path === null) {
+                    poster = "../image/default-movie.png";
+                } else {
+                    poster = "https://image.tmdb.org/t/p/w185_and_h278_bestv2" + movie.poster_path;
+                }
+
+                let date = movie.release_date;
+
+                let year = date.slice(0, 4);
+                output += `
+                    <div class="col-md-3 box">
+                      <div class="movieBox">
+                        <img src="${poster}" alt="poster" width="210" height="315" class="img">
+                        <div class="browse-movie-bottom">
+                            <a href="#" onclick="movieSelected('${movie.id}')" class="browse-movie-title">${movie.title}</a>
+                            <div class="browse-movie-year">${year}</div>
+                            <button type="submit" class="button" onclick="movieSelected('${movie.id}')">Movie Details</button>
+                        </div>
+                        </div>
+                    </div>
+            `
+            });
+            $('#movies').html(output);
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+}
+
+function gender() {
+    axios.get('https://api.themoviedb.org/3/genre/movie/list?api_key=5ec279387e9aa9488ef4d00b22acc451&language=es-AR')
+        .then((response) => {
+            console.log(response);
+
+            let genero = response.data.genres;
+            let output = '';
+            output += `<select name="listaGenero" id="listaGenero" class="form-control">`
+
+            $.each(genero, (index, genero) => {
+
+                output += `
+                <option value=${genero.id} selected>${genero.name}</option>
+            `
+            });
+            output += `</select>`
+
+            $('#generos').html(output);
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+}
+
+$('#listaGenero').change(
+    function() {
+        let genderID = $('#listaGenero').val();
+
+        getMoviesGenero(genderID);
+    }
+
+)
+
+function getMoviesGenero(genderID) {
+    axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=5ec279387e9aa9488ef4d00b22acc451&with_genres=${genderID}`)
         .then((response) => {
             console.log(response);
 

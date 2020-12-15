@@ -93,7 +93,7 @@ if (isset($_SESSION['username'])) {
                     <br>
                     <input type="checkbox" name="chkbox" required>Acepto los terminos y condiciones*
                     <br>
-                    <input type="submit" value="Sign Up" name="signup-btn" class="btn-log">
+                    <input type="submit" value="Registrarse" name="signup-btn" class="btn-log">
                 </form>
             </div>
         </div>

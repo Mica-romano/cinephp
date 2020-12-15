@@ -14,6 +14,7 @@ else{
 
 
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -30,6 +31,8 @@ else{
     <!-- Archivos CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="../css/popup.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -37,19 +40,22 @@ else{
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
                <!-- Logo -->
-       <a class="navbar-brand text-danger " href="index.php">
+       <a class="navbar-brand text-danger" href="index.php">
         <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->
-        <ul class="navbar-nav mr-auto ">
+        <ul class="navbar-nav mr-auto">
+
         </ul>
-        <ul class="navbar-nav ">
-            <li class="nav-item ">
-                <a class="nav-link active  text-white" href="# ">✷ Inicio</a>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="../index.php">✷ Inicio</a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link text-white" href="browse.php">✷ Buscador</a>
+            <li class="nav-item">
+                <a class="nav-link active text-white" href="#">✷ Buscar Peliculas</a>
             </li>
+            
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link text-white" href="#" data-toggle="dropdown">
                     <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
@@ -67,31 +73,27 @@ else{
         <div class="container">
             <div class="sbox">
 
-                <div>
-                <center>
+                
+                    <center>
                         <div class="content">
-                            <h1 style="color: white">★ Cinema ★</h1>  <h1 style="color: red">Buscador de peliculas</h1><br>
-                            <h3>
+                            <h1 style="color: white">★ Cinema ★ <br> Informacion sobre mas de 10.000 peliculas</h1><br>
                             <p style="color: white">
-                               
-                             En este seccion podras buscar peliculas por su nombre, genero o fecha. Encontraras la sipnosis de cada pelicula, su duracion, su genero, puntuacion y ademas podras ver
-                                <span style="font-weight:bold; color: red"> Reseñas </span> de usuarios que ya visualizaron cada film.
-                                
-                            </p></h3>
+                                Bienvenidos a
+                                <span style="font-weight:bold; color: red">Cinema</span>  |En este sitio encontraras toda la informacion de tu pelicula favorita. Cinema Movies es reconocido por su excelencia.Aqui obtendras 
+                                <span style="font-weight:bold; color: red">Informacion  </span>| de todas y cada una de las peliculas estrenadas y no estrenadas.Proporcionamos esta informacion con la ayuda de   
+                                <span style="font-weight:bold; color: red">MovieDB </span> |Films conocidos por sus recursos cinematograficos .
+                                <span style="font-weight:bold; color: red">Buscador </span> |Obtenga aspectos detallados de su film favorito.
+                            </p>
                         </div>
                     </center>
-                    <form id="searchForm">
-                        <input type="text" class="searchBox" placeholder="Escribe la pelicula" id="searchText">
-                    </form>
-                    <br>
-                    
-                    <a href="browseGender.php" class="btn btn-outline-danger">
-                        Buscar por Género
-                    </a>
-                    <a href="#popup2" class="btn btn-outline-danger">
-                        Buscar por fecha
-                    </a>
-                </div>
+                                  
+            </div>
+            <br>
+            <h1 style="color: white">Generos</h1><br>
+        </div>
+        <div class="container">
+            <div id="generos" class="row">
+                
             </div>
         </div>
 
@@ -99,6 +101,8 @@ else{
             <div id="movies" class="row"></div>
         </div>
     </div>
+
+    
 
     <div class="footer">
         <p>&copy; Copyright MDP Developers.</p>
@@ -118,7 +122,7 @@ else{
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="../js/main.js"></script>
     <script>
-        popularMovies();
+        gender();
     </script>
 </body>
 

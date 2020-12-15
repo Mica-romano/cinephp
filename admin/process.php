@@ -47,7 +47,7 @@ else{
             <li class="nav-item text-white">
                 <a class="nav-link active text-white " href="index.php"> ✷ Inicio</a>
             <li class="nav-item ">
-                <a class="nav-link text-white" href="process.php"> ✷ Ingresar proyecciones</a>
+                <a class="nav-link text-white" href=""> ✷ Ingresar proyecciones</a>
             </li>
             </li> 
             <li class="nav-item ">
@@ -58,10 +58,10 @@ else{
                 <a class="nav-link text-white " href="admincinema.php"> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-white" href="process.php"> ✷ Stock entradas</a>
+                <a class="nav-link text-white" href=""> ✷ Stock entradas</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-white" href="process.php"> ✷ Dinero recaudado</a>
+                <a class="nav-link text-white" href=""> ✷ Dinero recaudado</a>
             </li>
 
             <li class="nav-item dropdown dropleft ">
@@ -82,31 +82,8 @@ else{
                     <h1 class="title ">★ Cinema ★<br>
                         <span style="color: yellow;">Panel de Administrador</span>
                     </h1>
-                    <p style="color: white" class="content">
-                       Bienvenido a 
-                        <span style="font-weight:bold; color: yellow">Cinema</span> | En esta seccion podras administrar la informacion de cada 
-                        cine y proyeccion.</span> Con la ayuda de la pagina de 
-                        <span style="font-weight:bold; color: yellow">MovieDB </span> podras obtener una amplia lista de peliculas para utilizar en tu 
-                        <span style="font-weight:bold; color: yellow">Cartelera de cine.</span> 
-                    </p>
-                </div>
-                <div class="container">
-                    <a href="process.php" class="btn-main ">
-                        Ingresar proyecciones
-                    </a>
-                    <a href="users.php" class="btn-main ">
-                        Gestionar Usuarios
-                        </a>
-                    </a>
-                     <a href="admincinema.php" class="btn-main ">
-                        Administrar cines
-                    </a> <br> <br>
-                    <a href="process.php" class="btn-main ">
-                        Entradas vendidas y remanentes
-                    </a>
-                    <a href="process.php" class="btn-main ">
-                        Dinero recaudado
-                    </a>
+                    <br><br>
+                    <img src="../image/process.jpg" style="border-radius:30%;" alt="estamos trabajando en esta seccion">
                 </div>
 
             </center>

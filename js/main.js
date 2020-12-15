@@ -45,7 +45,7 @@ function popularMovies() {
                         <div class="browse-movie-bottom">
                             <a href="#" onclick="movieSelected('${movie.id}')" class="browse-movie-title">${movie.title}</a>
                             <div class="browse-movie-year">${year}</div>
-                            <button type="submit" class="button" onclick="movieSelected('${movie.id}')">Movie Details</button>
+                            <button type="submit" class="button" onclick="movieSelected('${movie.id}')">Detalles</button>
                         </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ function getMoviesGenero(genderID) {
                         <div class="browse-movie-bottom">
                             <a href="#" onclick="movieSelected('${movie.id}')" class="browse-movie-title">${movie.title}</a>
                             <div class="browse-movie-year">${year}</div>
-                            <button type="submit" class="button" onclick="movieSelected('${movie.id}')">Movie Details</button>
+                            <button type="submit" class="button" onclick="movieSelected('${movie.id}')">Detalles</button>
                         </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ function getMovies(searchText) {
                             <div class="browse-movie-bottom">
                                 <a href="#" onclick="movieSelected('${movie.id}')" class="browse-movie-title">${movie.title}</a>
                                 <div class="browse-movie-year">${year}</div>
-                                <button type="submit" class="button" onclick="movieSelected1('${movie.id}')">Movie Details</button>
+                                <button type="submit" class="button" onclick="movieSelected1('${movie.id}')">Detalles</button>
                             </div>
                             </div>
                         </div>
@@ -334,7 +334,7 @@ function getTopMovies() {
                             <div class="browse-movie-bottom">
                                 <a href="#" onclick="movieSelected('${movies[index].id}')" class="browse-movie-title">${movies[index].title}</a>
                                 <div class="browse-movie-year">${year}</div>
-                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Movie Details</button>
+                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Detalles</button>
                             </div>
                             </div>
                         </div>
@@ -361,7 +361,7 @@ function getTopMovies() {
                             <div class="browse-movie-bottom">
                                 <a href="#" onclick="movieSelected('${movies[index].id}')" class="browse-movie-title">${movies[index].title}</a>
                                 <div class="browse-movie-year">${year}</div>
-                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Movie Details</button>
+                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Detalles</button>
                             </div>
                             </div>
                         </div>
@@ -388,7 +388,7 @@ function getTopMovies() {
                             <div class="browse-movie-bottom">
                                 <a href="#" onclick="movieSelected('${movies[index].id}')" class="browse-movie-title">${movies[index].title}</a>
                                 <div class="browse-movie-year">${year}</div>
-                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Movie Details</button>
+                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Detalles</button>
                             </div>
                             </div>
                         </div>
@@ -416,7 +416,7 @@ function getTopMovies() {
                             <div class="browse-movie-bottom">
                                 <a href="#" onclick="movieSelected('${movies[index].id}')" class="browse-movie-title">${movies[index].title}</a>
                                 <div class="browse-movie-year">${year}</div>
-                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Movie Details</button>
+                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Detalles</button>
                             </div>
                             </div>
                         </div>
@@ -445,7 +445,7 @@ function getTopMovies() {
                             <div class="browse-movie-bottom">
                                 <a href="#" onclick="movieSelected('${movies[index].id}')" class="browse-movie-title">${movies[index].title}</a>
                                 <div class="browse-movie-year">${year}</div>
-                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Movie Details</button>
+                                <button type="submit" class="button" onclick="movieSelected('${movies[index].id}')">Detalles</button>
                             </div>
                             </div>
                         </div>

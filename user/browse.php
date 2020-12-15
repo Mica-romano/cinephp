@@ -51,10 +51,10 @@ else{
                 <a class="nav-link text-white" href="browse.php">✷ Buscador</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-white" href="browse.php">✷ Comprar entradas</a>
+                <a class="nav-link text-white" href="process.php">✷ Comprar entradas</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-white" href="browse.php">✷ Entradas adquiridas</a>
+                <a class="nav-link text-white" href="process.php">✷ Entradas adquiridas</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link text-white" href="#" data-toggle="dropdown">

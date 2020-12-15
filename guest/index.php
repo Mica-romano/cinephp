@@ -67,7 +67,7 @@ if (isset($_SESSION['username'])) {
                     <i class="fa fa-lock icon"></i>
                     <input type="password" placeholder="Password" name="password" class="log-input" required>
                     <br>
-                    <input type="submit" value="Log In" name="signup-btn" class="btn-log">
+                    <input type="submit" value="Iniciar sesion" name="signup-btn" class="btn-log">
                 </form>
             </div>
         </div>
@@ -80,16 +80,16 @@ if (isset($_SESSION['username'])) {
             <div class="log-content">
                 <form action="../controller/register.php" method="post">
                     <i class="fa fa-user icon"></i>
-                    <input type="text" placeholder="Enter your name" name="fullname" class="log-input" required>
+                    <input type="text" placeholder="Ingresa tu nombre" name="fullname" class="log-input" required>
                     <br>
                     <i class="fa fa-envelope icon"></i>
-                    <input type="email" placeholder="Enter your email" name="email" class="log-input" required>
+                    <input type="email" placeholder="Ingresa tu email" name="email" class="log-input" required>
                     <br>
                     <i class="fa fa-link icon"></i>
-                    <input type="text" placeholder="Enter username" name="username" class="log-input" required>
+                    <input type="text" placeholder="Ingresa un usuario" name="username" class="log-input" required>
                     <br>
                     <i class="fa fa-lock icon"></i>
-                    <input type="password" placeholder="Password" name="password" class="log-input" required>
+                    <input type="password" placeholder="Contraseña" name="password" class="log-input" required>
                     <br>
                     <input type="checkbox" name="chkbox" required>Acepto los terminos y condiciones*
                     <br>

@@ -13,13 +13,13 @@ $(document).ready(() => {
 })
 
 
-
 // var btn = document.getElementById('searchBtn');
 // var search = document.getElementById('searchBox')
 // btn.addEventListener('submit', (event) => {
 //     e.preventDefault()
 //     getMovies(search.value);
 // })
+
 function popularMovies() {
     axios.get('https://api.themoviedb.org/3/movie/popular?api_key=5ec279387e9aa9488ef4d00b22acc451&language=es-AR&page=1')
         .then((response) => {
@@ -57,6 +57,35 @@ function popularMovies() {
             console.log(error);
         });
 }
+
+function gender() {
+    axios.get('https://api.themoviedb.org/3/genre/movie/list?api_key=5ec279387e9aa9488ef4d00b22acc451&language=es-AR')
+        .then((response) => {
+            console.log(response);
+
+            let genero = response.data.genres;
+            let output = '';
+            output += `<select name="listaGenero" id="listaGenero" class="form-control">`
+
+            $.each(genero, (index, genero) => {
+
+                output += `
+                <option value=${genero.id} selected>${genero.name}</option>
+            `
+            });
+            output += `</select>`
+
+            $('#generos').html(output);
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+}
+
+$('#listaGenero').change(
+
+
+)
 
 
 function getMovies(searchText) {

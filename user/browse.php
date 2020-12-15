@@ -44,11 +44,17 @@ else{
         <ul class="navbar-nav mr-auto ">
         </ul>
         <ul class="navbar-nav ">
+        <li class="nav-item text-white">
+                <a class="nav-link active text-white " href="index.php"> ✷ Inicio</a>
             <li class="nav-item ">
-                <a class="nav-link active  text-white" href="# ">✷ Inicio</a>
-            </li>
             <li class="nav-item ">
                 <a class="nav-link text-white" href="browse.php">✷ Buscador</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-white" href="browse.php">✷ Comprar entradas</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-white" href="browse.php">✷ Entradas adquiridas</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link text-white" href="#" data-toggle="dropdown">

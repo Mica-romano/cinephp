@@ -92,7 +92,7 @@ if (isset($_POST['update'])) {
                 <a class="nav-link" href=""> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href=""> ✷ Entradas vendidas y remanentes</a>
+                <a class="nav-link" href=""> ✷ Stock entradas</a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href=""> ✷ Dinero recaudado</a>

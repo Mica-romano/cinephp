@@ -76,20 +76,21 @@ function gender() {
             output += `</select>`
 
             $('#generos').html(output);
+
+            document.getElementById('listaGenero').addEventListener('change', (event) => {
+
+                const genderID = event.target.value;
+                getMoviesGenero(genderID);
+
+            });
         })
         .catch((error) => {
             console.log(error);
         });
+
 }
 
-$('#listaGenero').change(
-    function() {
-        let genderID = $('#listaGenero').val();
 
-        getMoviesGenero(genderID);
-    }
-
-)
 
 function getMoviesGenero(genderID) {
     axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=5ec279387e9aa9488ef4d00b22acc451&with_genres=${genderID}`)

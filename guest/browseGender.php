@@ -86,7 +86,13 @@ if (isset($_SESSION['username'])) {
                 
             </div>
         </div>
+
+        <div class="container">
+            <div id="movies" class="row"></div>
+        </div>
     </div>
+
+    
 
     <div class="footer">
         <p>&copy; Copyright MDP Developers.</p>

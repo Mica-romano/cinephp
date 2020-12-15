@@ -1,4 +1,4 @@
-<?php
+<?php /* 
 
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -136,3 +136,4 @@ else{
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
+*/

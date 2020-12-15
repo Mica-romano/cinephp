@@ -57,7 +57,7 @@ if (isset($_POST['update'])) {
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Archivos  CSS -->
     <link rel=" stylesheet " href="../css/bootstrap.min.css ">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -67,8 +67,8 @@ if (isset($_POST['update'])) {
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  <!--navbar navbar-expand-sm bg-secondary navbar-dark fixed-top-->
-        <!-- Brand/logo -->
-        <a class="navbar-brand text-danger " href="#">
+        <!--Logo -->
+        <a class="navbar-brand text-danger " href="index.php">
         <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 

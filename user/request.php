@@ -24,7 +24,7 @@ else{
     <link rel="stylesheet" href="../css/request.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Archivos  CSS -->
     <link rel=" stylesheet " href="../css/bootstrap.min.css ">
     <link rel="stylesheet" href="../css/popup.css">
 
@@ -48,7 +48,7 @@ else{
                 <a class="nav-link " href="browse.php">Browse Movies</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link active" href="#">Request</a>
+                <a class="nav-link active" href="index.php">Request</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link" href="#" data-toggle="dropdown">

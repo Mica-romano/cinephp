@@ -27,7 +27,7 @@ else{
     <link rel="stylesheet" href="../css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Archivos CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,7 +37,7 @@ else{
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
                <!-- Logo -->
-       <a class="navbar-brand text-danger " href="#">
+       <a class="navbar-brand text-danger " href="index.php">
         <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->
@@ -49,9 +49,6 @@ else{
             </li>
             <li class="nav-item ">
                 <a class="nav-link text-white" href="browse.php">✷ Buscador</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link text-white" href="request.php">✷ Request</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link text-white" href="#" data-toggle="dropdown">
@@ -71,18 +68,16 @@ else{
             <div class="sbox">
 
                 <div>
-                    <center>
+                <center>
                         <div class="content">
-                            <h1 style="color: white">MoviesInfo: Information about over 10k+ movies</h1>
+                            <h1 style="color: white">★ Cinema ★</h1>  <h1 style="color: red">Buscador de peliculas</h1><br>
+                            <h3>
                             <p style="color: white">
-                               Bienvenido a Cinema
-                                <span style="font-weight:bold; color: #6AC045">MoviesInfo</span> | It is site where you can view information about your favourite movie.
-                                MoviesInfo are best known for the excellent
-                                <span style="font-weight:bold; color: #6AC045">Information</span> for each and every released and not released movies. We are providing
-                                this information by the help of
-                                <span style="font-weight:bold; color: #6AC045">MovieDB </span> which known for their movies resources.
-                                <span style="font-weight:bold; color: #6AC045">Browse</span> Movie and get detail aspect of your favourite movie.
-                            </p>
+                               
+                             En este seccion podras buscar peliculas por su nombre, genero o fecha. Encontraras la sipnosis de cada pelicula, su duracion, su genero, puntuacion y ademas podras ver
+                                <span style="font-weight:bold; color: red"> Reseñas </span> de usuarios que ya visualizaron cada film.
+                                
+                            </p></h3>
                         </div>
                     </center>
                     <form id="searchForm">

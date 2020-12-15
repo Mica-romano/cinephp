@@ -41,7 +41,7 @@ include('cinemaList.php');
 <body>
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
        <!-- Logo -->
-       <a class="navbar-brand text-danger " href="#">
+       <a class="navbar-brand text-danger " href="index.php">
         <img src="../image/2.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 

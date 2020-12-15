@@ -41,7 +41,7 @@ include('userlist.php');
 <body background="...\image\fondo.jgp">
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Logo -->
-        <a class="navbar-brand " href="#">
+        <a class="navbar-brand " href="index.php">
         <img src="../image/8.png " alt="logo "> Cinema
         </a>
 

@@ -24,7 +24,7 @@ else{
     <link rel="stylesheet" href="../css/movie.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Archivos CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,7 +34,7 @@ else{
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
                <!-- Logo -->
-       <a class="navbar-brand text-danger" href="#">
+       <a class="navbar-brand text-danger" href="index.php">
         <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->
@@ -48,9 +48,6 @@ else{
             </li>
             <li class="nav-item">
                 <a class="nav-link active text-white" href="browse.php">✷ Buscar peliculas</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="request.php">✷ Request</a>
             </li>
             <li class="nav-item dropdown dropleft">
                 <a class="nav-link text-white" href="#" data-toggle="dropdown">

@@ -34,8 +34,8 @@ else{
 
 <body> 
       <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  <!--navbar navbar-expand-sm bg-secondary navbar-dark fixed-top-->
-        <!-- Brand/logo -->
-        <a class="navbar-brand text-danger " href="#">
+        <!-- Logo -->
+        <a class="navbar-brand text-danger " href="index.php">
         <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
@@ -46,10 +46,6 @@ else{
         <ul class="navbar-nav">
             <li class="nav-item text-white">
                 <a class="nav-link active text-white " href="index.php"> ✷ Inicio</a>
-           <!-- <li class="nav-item ">
-                <a class="nav-link" href="moviesrequest.php"> | Movies Request Pending</a>
-            </li>
-            </li> -->
             <li class="nav-item ">
                 <a class="nav-link text-white" href=""> ✷ Ingresar proyecciones</a>
             </li>

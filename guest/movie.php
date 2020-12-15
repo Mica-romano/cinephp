@@ -20,7 +20,7 @@ if (isset($_SESSION['username'])) {
 
     <link rel="stylesheet" href="../css/movie.css">
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Archivos  CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <link rel="stylesheet" href="../css/popup.css">
@@ -32,7 +32,7 @@ if (isset($_SESSION['username'])) {
 
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
               <!-- Logo -->
-              <a class="navbar-brand text-white" href="#">
+              <a class="navbar-brand text-white" href="index.php">
         <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
         <!-- Links -->

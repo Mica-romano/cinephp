@@ -102,7 +102,7 @@ else{
                         Administrar cines
                     </a> <br> <br>
                     <a href="process.php" class="btn-main ">
-                        Entradas vendidas y remanentes
+                        Stock entradas
                     </a>
                     <a href="process.php" class="btn-main ">
                         Dinero recaudado

@@ -62,15 +62,21 @@ else{
             <center>
                 <div class=" inner-body ">
                     <h1 class="title ">★ Cinema ★<br>
-                        <span style="color: yellow;">Panel de Administrador</span>
+                        <span style="color: yellow;"></span>
                     </h1>
                     <br><br>
-                    <img src="../image/process.jpg" style="border-radius:30%;" alt="estamos trabajando en esta seccion">
+                    <img src="../image/process.jpg" style="border-radius:30%; width:60%" alt="estamos trabajando en esta seccion">
+                    
                 </div>
 
+    
             </center>
+        
         </div>
+        
     </header>
+   
+
     </body>
 
 

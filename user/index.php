@@ -75,16 +75,14 @@ else{
                 <div class=" inner-body ">
                     <h1 class="title ">Bienvenido
                         <span style="color: white; text-transform:lowercase;"><?php echo $_SESSION['username'] ?></span>
-                    </h1>
-                    <p style="color: white" class="content">
-                       Bienvenido a 
-                        <span style="font-weight:bold; color: red">MoviesInfo</span> | It is site where you can view information about your favourite movie. MoviesInfo
-                        are best known for the excellent
-                        <span style="font-weight:bold; color: red">Information</span> for each and every released and not released movies. We are providing this information
-                        by the help of
-                        <span style="font-weight:bold; color: red">MovieDB </span> which known for their movies resources.
-                        <span style="font-weight:bold; color: red">Browse</span> Movie and get detail aspect of your favourite movie.
-                    </p>
+                    </h1> <br>
+                   <h3> <p style="color: white">
+                                Bienvenido a
+                                <span style="font-weight:bold; color: red">★ Cinema ★</span>  |  En este sitio podras comprar entradas para peliculas en estreno en la ciudad de Mar del Plata. Aqui encontraras toda la
+                                <span style="font-weight:bold; color: red">Informacion</span> de cada pelicula y saber en que cines se proyecta cada film. Gracias a la colaboracion de
+                                <span style="font-weight:bold; color: red"> MovieDB </span> podras ver la Informacion de todas y cada una de las peliculas estrenadas y no estrenadas. 
+                                
+                            </p></h3>
                 </div>
                 <div class="container">
                     <a href="browse.php" class="btn-main btn-main-primary">

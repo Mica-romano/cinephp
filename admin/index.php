@@ -80,7 +80,7 @@ else{
         </ul>
     </nav>
     <header>
-        <div class="container-sm body ">
+        <div class="container body ">
             <center>
                 <div class=" inner-body ">
                     <h1 class="title ">★ Cinema ★<br>

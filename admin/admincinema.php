@@ -69,10 +69,10 @@ include('cinemaList.php');
                 <a class="nav-link text-white" href="admincinema.php"> ✷ Administrar cines</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-white" href=""> ✷ Stock entradas</a>
+                <a class="nav-link text-white" href="process.php"> ✷ Stock entradas</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-white" href=""> ✷ Dinero recaudado</a>
+                <a class="nav-link text-white" href="process.php"> ✷ Dinero recaudado</a>
             </li>
 
             <li class="nav-item dropdown dropleft">

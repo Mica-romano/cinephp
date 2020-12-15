@@ -62,10 +62,10 @@ if (isset($_SESSION['username'])) {
             <div class="log-content">
                 <form action="../controller/login.php" method="post">
                     <i class="fa fa-user icon"></i>
-                    <input type="text" placeholder="Username" name="username" class="log-input" required>
+                    <input type="text" placeholder="Usuario" name="username" class="log-input" required>
                     <br>
                     <i class="fa fa-lock icon"></i>
-                    <input type="password" placeholder="Password" name="password" class="log-input" required>
+                    <input type="password" placeholder="Contraseña" name="password" class="log-input" required>
                     <br>
                     <input type="submit" value="Log In" name="signup-btn" class="btn-log">
                 </form>

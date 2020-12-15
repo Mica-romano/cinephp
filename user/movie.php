@@ -43,9 +43,9 @@ else{
         </ul>
         <!-- Links -->
         <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link text-white" href="index.php">✷ Inicio</a>
-            </li>
+        <li class="nav-item text-white">
+                <a class="nav-link active text-white " href="index.php"> ✷ Inicio</a>
+            <li class="nav-item ">
             <li class="nav-item">
                 <a class="nav-link active text-white" href="browse.php">✷ Buscar peliculas</a>
             </li>

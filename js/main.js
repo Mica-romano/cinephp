@@ -20,6 +20,7 @@ $(document).ready(() => {
 //     getMovies(search.value);
 // })
 
+//integracion de la api
 function popularMovies() {
     axios.get('https://api.themoviedb.org/3/movie/popular?api_key=5ec279387e9aa9488ef4d00b22acc451&language=es-AR&page=1')
         .then((response) => {

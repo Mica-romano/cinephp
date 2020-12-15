@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-12-2020 a las 23:32:53
+-- Tiempo de generación: 15-12-2020 a las 03:09:06
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.5
 
@@ -42,7 +42,7 @@ CREATE TABLE `cinema` (
 INSERT INTO `cinema` (`cinemaid`, `cineName`, `capacity`, `address`, `ticketPrice`) VALUES
 (1, 'ambasador', 50, 'Cordoba 1732', 150),
 (2, 'paseo diagonal', 30, 'Diagonal Pueyrredon 1280', 150),
-(4, 'cordoba', 20, 'cordoba 1281', 120);
+(6, 'cordoba', 55, 'cordoba 1281', 180);
 
 -- --------------------------------------------------------
 
@@ -85,7 +85,6 @@ CREATE TABLE `userdata` (
 
 INSERT INTO `userdata` (`UserId`, `Username`, `Pass`, `Fullname`, `Email`, `status`) VALUES
 (1, 'admin', 'admin', 'admin', 'admin@moviesinfo.cf', 'admin'),
-(22, 'codersgenius', 'coders', 'Genius Coders', 'codersgenius@gmail.com', 'user'),
 (26, 'rocio', '1234', 'rocio', 'rocio@rocio', 'user');
 
 --
@@ -118,7 +117,7 @@ ALTER TABLE `userdata`
 -- AUTO_INCREMENT de la tabla `cinema`
 --
 ALTER TABLE `cinema`
-  MODIFY `cinemaid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `cinemaid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `request`

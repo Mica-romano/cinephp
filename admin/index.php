@@ -33,6 +33,7 @@ else{
 </head>
 
 <body> 
+      <!--barra de navegacion-->
       <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  <!--navbar navbar-expand-sm bg-secondary navbar-dark fixed-top-->
         <!-- Logo -->
         <a class="navbar-brand text-danger " href="index.php">

@@ -21,7 +21,7 @@ else{
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bienvenido a Cinema</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/indexadmin.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
 
     <!-- Archivos CSS -->
@@ -34,9 +34,9 @@ else{
 
 <body> 
       <!--barra de navegacion-->
-      <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  <!--navbar navbar-expand-sm bg-secondary navbar-dark fixed-top-->
+      <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">  <!--navbar navbar-expand-sm bg-secondary navbar-dark fixed-top-->
         <!-- Logo -->
-        <a class="navbar-brand text-danger " href="index.php">
+        <a class="navbar-brand text-danger" href="index.php">
         <img src="../image/8.png " alt="logo "> <strong> CINEMA</strong>
         </a>
 
@@ -74,13 +74,13 @@ else{
                     <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Cerrar Sesion</a>
                 </div>
             </li>
-        </ul>
+      </ul>
     </nav>
     <header>
-        <div class="container body ">
-            <center>
+        <div class="containerbody">
+          
                 <div class=" inner-body ">
-                    <h1 class="title ">★ Cinema ★<br>
+                    <h1 class="title "> <span>★ Cinema ★</span> <br>
                         <span style="color: yellow;">Panel de Administrador</span>
                     </h1>
                     <p style="color: white" class="content">
@@ -91,8 +91,9 @@ else{
                         <span style="font-weight:bold; color: yellow">Cartelera de cine.</span> 
                     </p>
                 </div>
-                <div class="container">
-                    <a href="process.php" class="btn-main ">
+                <div class="caja">
+                <div class="btn-group-vertical">
+                    <a href="process.php" class="btn-main btn-danger" >
                         Ingresar proyecciones
                     </a>
                     <a href="users.php" class="btn-main ">
@@ -101,16 +102,16 @@ else{
                     </a>
                      <a href="admincinema.php" class="btn-main ">
                         Administrar cines
-                    </a> <br> <br>
+                    </a> 
                     <a href="process.php" class="btn-main ">
                         Stock entradas
                     </a>
                     <a href="process.php" class="btn-main ">
                         Dinero recaudado
                     </a>
-                </div>
+                </div></div>
 
-            </center>
+            
         </div>
     </header>
     </body>
